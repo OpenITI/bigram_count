@@ -30,6 +30,21 @@ def create_bigram_dict(json_fp, alph):
         json.dump(bigrams, file, ensure_ascii=False, indent=4)
     return bigrams
 
+def sort_json(json_fp):
+    with open(json_fp, mode="r", encoding="utf-8") as file:
+        data = json.load(file)
+    s = json.dumps(data, ensure_ascii=False, indent=4)
+    tups = [line.split(":") for line in s.splitlines()[1:-1]]
+    tups = [(tup[0], int(tup[1][1:-1])) for tup in tups]
+    tups = sorted(tups, key=lambda x: x[1])
+    s = ["{}: {}".format(*tup) for tup in tups]
+    s = ["{"] + s + ["}"]
+    s = "\n".join(s)
+    outfp = "output/bigram_count_sorted.json"
+    with open(outfp, mode="w", encoding="utf-8") as file:
+        file.write(s)
+        
+
 def count_bigrams_in_file(fp, bigrams):
     """Count all bigrams in a file and add the counts to the bigrams dictionary"""
     with open(fp, mode="r", encoding="utf-8") as file:
@@ -264,6 +279,7 @@ html_title = "Bi-gram frequencies in the OpenITI corpus"
 ###############################################
 
 #bigrams = create_bigram_dict(json_fp, alph=alph)
+#sort_json(json_fp)
 #count_bigrams_in_folder(start_folder, bigrams)
 with open(json_fp, mode="r", encoding="utf-8") as file:
     bigrams = json.load(file)
