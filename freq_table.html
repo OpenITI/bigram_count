@@ -1,0 +1,4127 @@
+    <html>
+    <header>
+      <style>
+    td {
+      width: 20px;
+      height: 20px;
+    }
+
+    td .tooltip {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+    }
+
+    td:hover .tooltip {
+      visibility: visible;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    .b0 {
+      background-color: #ffffff;
+    }
+
+    .b1 {
+      background-color: #fff9c5;
+    }
+
+    .b2 {
+      background-color: #feeba2;
+    }
+
+    .b3 {
+      background-color: #fed778;
+    }
+
+    .b4 {
+      background-color: #febb47;
+    }
+
+    .b5 {
+      background-color: #fe9829;
+    }
+
+    .b6 {
+      background-color: #f07818;
+    }
+
+    .b7 {
+      background-color: #d85a09;
+    }
+
+    .b8 {
+      background-color: #b84203;
+    }
+
+    .b9 {
+      background-color: #8e3104;
+    }
+  </style>
+    </header>
+    <body>
+    <h1>Bi-gram frequencies in the OpenITI corpus</h1>
+    <table>
+  <tr>
+    <th> </th>
+    <th>ا</th>
+    <th>إ</th>
+    <th>أ</th>
+    <th>آ</th>
+    <th>ب</th>
+    <th>ت</th>
+    <th>ث</th>
+    <th>ج</th>
+    <th>ح</th>
+    <th>خ</th>
+    <th>د</th>
+    <th>ذ</th>
+    <th>ر</th>
+    <th>ز</th>
+    <th>س</th>
+    <th>ش</th>
+    <th>ص</th>
+    <th>ض</th>
+    <th>ط</th>
+    <th>ظ</th>
+    <th>ع</th>
+    <th>غ</th>
+    <th>ف</th>
+    <th>ق</th>
+    <th>ك</th>
+    <th>ل</th>
+    <th>م</th>
+    <th>ن</th>
+    <th>ه</th>
+    <th>و</th>
+    <th>ي</th>
+    <th>ى</th>
+    <th>ؤ</th>
+    <th>ء</th>
+    <th>ئ</th>
+    <th>ة</th>
+  </tr>
+  <tr>
+    <th>ا</th>
+    <td class="b5">اا
+      <span class="tooltip">21,704</span>
+    </td>
+    <td class="b3">اإ
+      <span class="tooltip">2,382</span>
+    </td>
+    <td class="b4">اأ
+      <span class="tooltip">16,420</span>
+    </td>
+    <td class="b3">اآ
+      <span class="tooltip">1,584</span>
+    </td>
+    <td class="b8">اب
+      <span class="tooltip">11,598,816</span>
+    </td>
+    <td class="b7">ات
+      <span class="tooltip">4,539,072</span>
+    </td>
+    <td class="b7">اث
+      <span class="tooltip">1,424,819</span>
+    </td>
+    <td class="b7">اج
+      <span class="tooltip">2,036,846</span>
+    </td>
+    <td class="b7">اح
+      <span class="tooltip">3,203,863</span>
+    </td>
+    <td class="b6">اخ
+      <span class="tooltip">968,035</span>
+    </td>
+    <td class="b7">اد
+      <span class="tooltip">5,673,992</span>
+    </td>
+    <td class="b6">اذ
+      <span class="tooltip">643,849</span>
+    </td>
+    <td class="b8">ار
+      <span class="tooltip">8,882,692</span>
+    </td>
+    <td class="b7">از
+      <span class="tooltip">1,297,809</span>
+    </td>
+    <td class="b7">اس
+      <span class="tooltip">6,241,585</span>
+    </td>
+    <td class="b7">اش
+      <span class="tooltip">1,124,138</span>
+    </td>
+    <td class="b7">اص
+      <span class="tooltip">1,219,250</span>
+    </td>
+    <td class="b7">اض
+      <span class="tooltip">1,011,715</span>
+    </td>
+    <td class="b6">اط
+      <span class="tooltip">959,923</span>
+    </td>
+    <td class="b6">اظ
+      <span class="tooltip">154,349</span>
+    </td>
+    <td class="b7">اع
+      <span class="tooltip">3,667,498</span>
+    </td>
+    <td class="b6">اغ
+      <span class="tooltip">305,830</span>
+    </td>
+    <td class="b7">اف
+      <span class="tooltip">3,382,762</span>
+    </td>
+    <td class="b7">اق
+      <span class="tooltip">3,098,615</span>
+    </td>
+    <td class="b7">اك
+      <span class="tooltip">1,520,206</span>
+    </td>
+    <td class="b9">ال
+      <span class="tooltip">138,452,531</span>
+    </td>
+    <td class="b8">ام
+      <span class="tooltip">8,383,410</span>
+    </td>
+    <td class="b8">ان
+      <span class="tooltip">19,019,804</span>
+    </td>
+    <td class="b7">اه
+      <span class="tooltip">5,435,158</span>
+    </td>
+    <td class="b7">او
+      <span class="tooltip">1,718,040</span>
+    </td>
+    <td class="b7">اي
+      <span class="tooltip">1,349,816</span>
+    </td>
+    <td class="b4">اى
+      <span class="tooltip">13,287</span>
+    </td>
+    <td class="b6">اؤ
+      <span class="tooltip">207,968</span>
+    </td>
+    <td class="b7">اء
+      <span class="tooltip">7,076,356</span>
+    </td>
+    <td class="b7">ائ
+      <span class="tooltip">4,215,449</span>
+    </td>
+    <td class="b7">اة
+      <span class="tooltip">1,395,122</span>
+    </td>
+  </tr>
+  <tr>
+    <th>إ</th>
+    <td class="b0">إا
+      <span class="tooltip">448</span>
+    </td>
+    <td class="b0">إإ
+      <span class="tooltip">60</span>
+    </td>
+    <td class="b0">إأ
+      <span class="tooltip">92</span>
+    </td>
+    <td class="b0">إآ
+      <span class="tooltip">1</span>
+    </td>
+    <td class="b7">إب
+      <span class="tooltip">1,336,944</span>
+    </td>
+    <td class="b5">إت
+      <span class="tooltip">43,577</span>
+    </td>
+    <td class="b5">إث
+      <span class="tooltip">99,328</span>
+    </td>
+    <td class="b6">إج
+      <span class="tooltip">196,628</span>
+    </td>
+    <td class="b6">إح
+      <span class="tooltip">276,673</span>
+    </td>
+    <td class="b6">إخ
+      <span class="tooltip">162,240</span>
+    </td>
+    <td class="b5">إد
+      <span class="tooltip">124,333</span>
+    </td>
+    <td class="b7">إذ
+      <span class="tooltip">3,265,908</span>
+    </td>
+    <td class="b5">إر
+      <span class="tooltip">86,050</span>
+    </td>
+    <td class="b5">إز
+      <span class="tooltip">50,522</span>
+    </td>
+    <td class="b7">إس
+      <span class="tooltip">1,893,891</span>
+    </td>
+    <td class="b5">إش
+      <span class="tooltip">83,059</span>
+    </td>
+    <td class="b5">إص
+      <span class="tooltip">79,321</span>
+    </td>
+    <td class="b5">إض
+      <span class="tooltip">61,680</span>
+    </td>
+    <td class="b5">إط
+      <span class="tooltip">48,851</span>
+    </td>
+    <td class="b5">إظ
+      <span class="tooltip">23,910</span>
+    </td>
+    <td class="b5">إع
+      <span class="tooltip">137,878</span>
+    </td>
+    <td class="b4">إغ
+      <span class="tooltip">15,649</span>
+    </td>
+    <td class="b5">إف
+      <span class="tooltip">73,268</span>
+    </td>
+    <td class="b6">إق
+      <span class="tooltip">163,091</span>
+    </td>
+    <td class="b5">إك
+      <span class="tooltip">37,191</span>
+    </td>
+    <td class="b7">إل
+      <span class="tooltip">7,079,658</span>
+    </td>
+    <td class="b6">إم
+      <span class="tooltip">543,542</span>
+    </td>
+    <td class="b7">إن
+      <span class="tooltip">6,211,650</span>
+    </td>
+    <td class="b5">إه
+      <span class="tooltip">24,758</span>
+    </td>
+    <td class="b3">إو
+      <span class="tooltip">1,544</span>
+    </td>
+    <td class="b6">إي
+      <span class="tooltip">479,389</span>
+    </td>
+    <td class="b0">إى
+      <span class="tooltip">415</span>
+    </td>
+    <td class="b0">إؤ
+      <span class="tooltip">2</span>
+    </td>
+    <td class="b0">إء
+      <span class="tooltip">40</span>
+    </td>
+    <td class="b3">إئ
+      <span class="tooltip">1,481</span>
+    </td>
+    <td class="b0">إة
+      <span class="tooltip">20</span>
+    </td>
+  </tr>
+  <tr>
+    <th>أ</th>
+    <td class="b4">أا
+      <span class="tooltip">2,859</span>
+    </td>
+    <td class="b4">أإ
+      <span class="tooltip">3,472</span>
+    </td>
+    <td class="b4">أأ
+      <span class="tooltip">16,234</span>
+    </td>
+    <td class="b3">أآ
+      <span class="tooltip">1,103</span>
+    </td>
+    <td class="b8">أب
+      <span class="tooltip">14,453,455</span>
+    </td>
+    <td class="b7">أت
+      <span class="tooltip">1,541,238</span>
+    </td>
+    <td class="b6">أث
+      <span class="tooltip">338,191</span>
+    </td>
+    <td class="b6">أج
+      <span class="tooltip">986,037</span>
+    </td>
+    <td class="b7">أح
+      <span class="tooltip">4,584,263</span>
+    </td>
+    <td class="b7">أخ
+      <span class="tooltip">4,724,835</span>
+    </td>
+    <td class="b6">أد
+      <span class="tooltip">735,684</span>
+    </td>
+    <td class="b6">أذ
+      <span class="tooltip">401,029</span>
+    </td>
+    <td class="b7">أر
+      <span class="tooltip">2,631,610</span>
+    </td>
+    <td class="b6">أز
+      <span class="tooltip">329,487</span>
+    </td>
+    <td class="b7">أس
+      <span class="tooltip">2,215,242</span>
+    </td>
+    <td class="b7">أش
+      <span class="tooltip">1,008,351</span>
+    </td>
+    <td class="b7">أص
+      <span class="tooltip">2,048,706</span>
+    </td>
+    <td class="b6">أض
+      <span class="tooltip">201,932</span>
+    </td>
+    <td class="b6">أط
+      <span class="tooltip">321,937</span>
+    </td>
+    <td class="b6">أظ
+      <span class="tooltip">140,645</span>
+    </td>
+    <td class="b7">أع
+      <span class="tooltip">2,072,256</span>
+    </td>
+    <td class="b6">أغ
+      <span class="tooltip">220,088</span>
+    </td>
+    <td class="b6">أف
+      <span class="tooltip">644,236</span>
+    </td>
+    <td class="b7">أق
+      <span class="tooltip">1,145,180</span>
+    </td>
+    <td class="b7">أك
+      <span class="tooltip">1,122,162</span>
+    </td>
+    <td class="b7">أل
+      <span class="tooltip">2,096,944</span>
+    </td>
+    <td class="b7">أم
+      <span class="tooltip">4,830,677</span>
+    </td>
+    <td class="b8">أن
+      <span class="tooltip">15,805,155</span>
+    </td>
+    <td class="b7">أه
+      <span class="tooltip">1,667,425</span>
+    </td>
+    <td class="b7">أو
+      <span class="tooltip">4,324,015</span>
+    </td>
+    <td class="b7">أي
+      <span class="tooltip">3,198,682</span>
+    </td>
+    <td class="b6">أى
+      <span class="tooltip">232,141</span>
+    </td>
+    <td class="b4">أؤ
+      <span class="tooltip">9,903</span>
+    </td>
+    <td class="b3">أء
+      <span class="tooltip">1,329</span>
+    </td>
+    <td class="b5">أئ
+      <span class="tooltip">58,092</span>
+    </td>
+    <td class="b6">أة
+      <span class="tooltip">435,000</span>
+    </td>
+  </tr>
+  <tr>
+    <th>آ</th>
+    <td class="b0">آا
+      <span class="tooltip">181</span>
+    </td>
+    <td class="b0">آإ
+      <span class="tooltip">41</span>
+    </td>
+    <td class="b0">آأ
+      <span class="tooltip">310</span>
+    </td>
+    <td class="b0">آآ
+      <span class="tooltip">47</span>
+    </td>
+    <td class="b5">آب
+      <span class="tooltip">110,032</span>
+    </td>
+    <td class="b5">آت
+      <span class="tooltip">105,844</span>
+    </td>
+    <td class="b5">آث
+      <span class="tooltip">79,830</span>
+    </td>
+    <td class="b5">آج
+      <span class="tooltip">30,030</span>
+    </td>
+    <td class="b4">آح
+      <span class="tooltip">10,425</span>
+    </td>
+    <td class="b6">آخ
+      <span class="tooltip">989,242</span>
+    </td>
+    <td class="b6">آد
+      <span class="tooltip">189,485</span>
+    </td>
+    <td class="b5">آذ
+      <span class="tooltip">36,226</span>
+    </td>
+    <td class="b4">آر
+      <span class="tooltip">15,685</span>
+    </td>
+    <td class="b4">آز
+      <span class="tooltip">6,904</span>
+    </td>
+    <td class="b4">آس
+      <span class="tooltip">15,243</span>
+    </td>
+    <td class="b4">آش
+      <span class="tooltip">3,023</span>
+    </td>
+    <td class="b4">آص
+      <span class="tooltip">5,014</span>
+    </td>
+    <td class="b0">آض
+      <span class="tooltip">723</span>
+    </td>
+    <td class="b3">آط
+      <span class="tooltip">1,513</span>
+    </td>
+    <td class="b0">آظ
+      <span class="tooltip">29</span>
+    </td>
+    <td class="b0">آع
+      <span class="tooltip">215</span>
+    </td>
+    <td class="b0">آغ
+      <span class="tooltip">294</span>
+    </td>
+    <td class="b5">آف
+      <span class="tooltip">29,235</span>
+    </td>
+    <td class="b4">آق
+      <span class="tooltip">2,816</span>
+    </td>
+    <td class="b5">آك
+      <span class="tooltip">28,884</span>
+    </td>
+    <td class="b6">آل
+      <span class="tooltip">491,600</span>
+    </td>
+    <td class="b6">آم
+      <span class="tooltip">217,904</span>
+    </td>
+    <td class="b6">آن
+      <span class="tooltip">446,750</span>
+    </td>
+    <td class="b5">آه
+      <span class="tooltip">60,227</span>
+    </td>
+    <td class="b4">آو
+      <span class="tooltip">11,736</span>
+    </td>
+    <td class="b6">آي
+      <span class="tooltip">607,959</span>
+    </td>
+    <td class="b0">آى
+      <span class="tooltip">945</span>
+    </td>
+    <td class="b0">آؤ
+      <span class="tooltip">821</span>
+    </td>
+    <td class="b5">آء
+      <span class="tooltip">19,516</span>
+    </td>
+    <td class="b4">آئ
+      <span class="tooltip">4,330</span>
+    </td>
+    <td class="b4">آة
+      <span class="tooltip">9,583</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ب</th>
+    <td class="b8">با
+      <span class="tooltip">12,135,358</span>
+    </td>
+    <td class="b6">بإ
+      <span class="tooltip">262,866</span>
+    </td>
+    <td class="b7">بأ
+      <span class="tooltip">1,788,511</span>
+    </td>
+    <td class="b5">بآ
+      <span class="tooltip">51,208</span>
+    </td>
+    <td class="b6">بب
+      <span class="tooltip">577,348</span>
+    </td>
+    <td class="b7">بت
+      <span class="tooltip">2,198,367</span>
+    </td>
+    <td class="b6">بث
+      <span class="tooltip">195,644</span>
+    </td>
+    <td class="b6">بج
+      <span class="tooltip">255,443</span>
+    </td>
+    <td class="b7">بح
+      <span class="tooltip">1,319,907</span>
+    </td>
+    <td class="b6">بخ
+      <span class="tooltip">606,461</span>
+    </td>
+    <td class="b8">بد
+      <span class="tooltip">7,765,880</span>
+    </td>
+    <td class="b6">بذ
+      <span class="tooltip">495,014</span>
+    </td>
+    <td class="b7">بر
+      <span class="tooltip">7,017,663</span>
+    </td>
+    <td class="b6">بز
+      <span class="tooltip">211,279</span>
+    </td>
+    <td class="b6">بس
+      <span class="tooltip">967,481</span>
+    </td>
+    <td class="b6">بش
+      <span class="tooltip">825,746</span>
+    </td>
+    <td class="b6">بص
+      <span class="tooltip">684,566</span>
+    </td>
+    <td class="b6">بض
+      <span class="tooltip">355,222</span>
+    </td>
+    <td class="b6">بط
+      <span class="tooltip">718,532</span>
+    </td>
+    <td class="b5">بظ
+      <span class="tooltip">34,457</span>
+    </td>
+    <td class="b7">بع
+      <span class="tooltip">4,933,557</span>
+    </td>
+    <td class="b6">بغ
+      <span class="tooltip">936,232</span>
+    </td>
+    <td class="b6">بف
+      <span class="tooltip">230,380</span>
+    </td>
+    <td class="b7">بق
+      <span class="tooltip">1,453,147</span>
+    </td>
+    <td class="b7">بك
+      <span class="tooltip">2,612,352</span>
+    </td>
+    <td class="b7">بل
+      <span class="tooltip">3,692,962</span>
+    </td>
+    <td class="b7">بم
+      <span class="tooltip">1,460,926</span>
+    </td>
+    <td class="b8">بن
+      <span class="tooltip">32,074,276</span>
+    </td>
+    <td class="b7">به
+      <span class="tooltip">6,010,541</span>
+    </td>
+    <td class="b8">بو
+      <span class="tooltip">8,384,376</span>
+    </td>
+    <td class="b8">بي
+      <span class="tooltip">15,234,932</span>
+    </td>
+    <td class="b6">بى
+      <span class="tooltip">470,808</span>
+    </td>
+    <td class="b4">بؤ
+      <span class="tooltip">10,197</span>
+    </td>
+    <td class="b3">بء
+      <span class="tooltip">1,942</span>
+    </td>
+    <td class="b5">بئ
+      <span class="tooltip">105,281</span>
+    </td>
+    <td class="b7">بة
+      <span class="tooltip">2,461,613</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ت</th>
+    <td class="b7">تا
+      <span class="tooltip">3,188,754</span>
+    </td>
+    <td class="b0">تإ
+      <span class="tooltip">118</span>
+    </td>
+    <td class="b6">تأ
+      <span class="tooltip">721,555</span>
+    </td>
+    <td class="b4">تآ
+      <span class="tooltip">3,841</span>
+    </td>
+    <td class="b7">تب
+      <span class="tooltip">2,373,909</span>
+    </td>
+    <td class="b6">تت
+      <span class="tooltip">485,311</span>
+    </td>
+    <td class="b6">تث
+      <span class="tooltip">151,185</span>
+    </td>
+    <td class="b6">تج
+      <span class="tooltip">784,612</span>
+    </td>
+    <td class="b7">تح
+      <span class="tooltip">1,938,016</span>
+    </td>
+    <td class="b6">تخ
+      <span class="tooltip">687,364</span>
+    </td>
+    <td class="b6">تد
+      <span class="tooltip">926,318</span>
+    </td>
+    <td class="b6">تذ
+      <span class="tooltip">180,767</span>
+    </td>
+    <td class="b7">تر
+      <span class="tooltip">2,606,530</span>
+    </td>
+    <td class="b6">تز
+      <span class="tooltip">428,950</span>
+    </td>
+    <td class="b7">تس
+      <span class="tooltip">1,034,377</span>
+    </td>
+    <td class="b6">تش
+      <span class="tooltip">441,403</span>
+    </td>
+    <td class="b6">تص
+      <span class="tooltip">865,541</span>
+    </td>
+    <td class="b6">تض
+      <span class="tooltip">336,331</span>
+    </td>
+    <td class="b6">تط
+      <span class="tooltip">375,494</span>
+    </td>
+    <td class="b5">تظ
+      <span class="tooltip">129,780</span>
+    </td>
+    <td class="b7">تع
+      <span class="tooltip">2,679,250</span>
+    </td>
+    <td class="b6">تغ
+      <span class="tooltip">459,341</span>
+    </td>
+    <td class="b7">تف
+      <span class="tooltip">1,123,058</span>
+    </td>
+    <td class="b7">تق
+      <span class="tooltip">2,252,133</span>
+    </td>
+    <td class="b7">تك
+      <span class="tooltip">1,567,617</span>
+    </td>
+    <td class="b7">تل
+      <span class="tooltip">2,482,915</span>
+    </td>
+    <td class="b7">تم
+      <span class="tooltip">2,549,766</span>
+    </td>
+    <td class="b7">تن
+      <span class="tooltip">1,528,273</span>
+    </td>
+    <td class="b7">ته
+      <span class="tooltip">5,099,002</span>
+    </td>
+    <td class="b7">تو
+      <span class="tooltip">1,794,764</span>
+    </td>
+    <td class="b7">تي
+      <span class="tooltip">2,991,966</span>
+    </td>
+    <td class="b7">تى
+      <span class="tooltip">1,849,595</span>
+    </td>
+    <td class="b5">تؤ
+      <span class="tooltip">91,254</span>
+    </td>
+    <td class="b0">تء
+      <span class="tooltip">133</span>
+    </td>
+    <td class="b5">تئ
+      <span class="tooltip">32,539</span>
+    </td>
+    <td class="b6">تة
+      <span class="tooltip">204,213</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ث</th>
+    <td class="b7">ثا
+      <span class="tooltip">1,610,340</span>
+    </td>
+    <td class="b0">ثإ
+      <span class="tooltip">23</span>
+    </td>
+    <td class="b4">ثأ
+      <span class="tooltip">13,882</span>
+    </td>
+    <td class="b0">ثآ
+      <span class="tooltip">810</span>
+    </td>
+    <td class="b6">ثب
+      <span class="tooltip">523,401</span>
+    </td>
+    <td class="b6">ثت
+      <span class="tooltip">146,734</span>
+    </td>
+    <td class="b4">ثث
+      <span class="tooltip">3,658</span>
+    </td>
+    <td class="b4">ثج
+      <span class="tooltip">6,541</span>
+    </td>
+    <td class="b0">ثح
+      <span class="tooltip">865</span>
+    </td>
+    <td class="b4">ثخ
+      <span class="tooltip">6,909</span>
+    </td>
+    <td class="b5">ثد
+      <span class="tooltip">35,969</span>
+    </td>
+    <td class="b0">ثذ
+      <span class="tooltip">39</span>
+    </td>
+    <td class="b6">ثر
+      <span class="tooltip">817,278</span>
+    </td>
+    <td class="b0">ثز
+      <span class="tooltip">48</span>
+    </td>
+    <td class="b0">ثس
+      <span class="tooltip">174</span>
+    </td>
+    <td class="b0">ثش
+      <span class="tooltip">71</span>
+    </td>
+    <td class="b0">ثص
+      <span class="tooltip">44</span>
+    </td>
+    <td class="b0">ثض
+      <span class="tooltip">37</span>
+    </td>
+    <td class="b3">ثط
+      <span class="tooltip">1,886</span>
+    </td>
+    <td class="b0">ثظ
+      <span class="tooltip">4</span>
+    </td>
+    <td class="b5">ثع
+      <span class="tooltip">133,047</span>
+    </td>
+    <td class="b5">ثغ
+      <span class="tooltip">33,959</span>
+    </td>
+    <td class="b4">ثف
+      <span class="tooltip">13,389</span>
+    </td>
+    <td class="b6">ثق
+      <span class="tooltip">485,560</span>
+    </td>
+    <td class="b5">ثك
+      <span class="tooltip">56,242</span>
+    </td>
+    <td class="b7">ثل
+      <span class="tooltip">2,180,044</span>
+    </td>
+    <td class="b7">ثم
+      <span class="tooltip">3,740,756</span>
+    </td>
+    <td class="b7">ثن
+      <span class="tooltip">6,903,066</span>
+    </td>
+    <td class="b6">ثه
+      <span class="tooltip">338,742</span>
+    </td>
+    <td class="b6">ثو
+      <span class="tooltip">646,480</span>
+    </td>
+    <td class="b6">ثي
+      <span class="tooltip">1,002,380</span>
+    </td>
+    <td class="b5">ثى
+      <span class="tooltip">54,486</span>
+    </td>
+    <td class="b3">ثؤ
+      <span class="tooltip">1,333</span>
+    </td>
+    <td class="b0">ثء
+      <span class="tooltip">233</span>
+    </td>
+    <td class="b0">ثئ
+      <span class="tooltip">834</span>
+    </td>
+    <td class="b6">ثة
+      <span class="tooltip">524,498</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ج</th>
+    <td class="b7">جا
+      <span class="tooltip">4,034,563</span>
+    </td>
+    <td class="b0">جإ
+      <span class="tooltip">691</span>
+    </td>
+    <td class="b5">جأ
+      <span class="tooltip">34,739</span>
+    </td>
+    <td class="b4">جآ
+      <span class="tooltip">4,325</span>
+    </td>
+    <td class="b7">جب
+      <span class="tooltip">1,641,841</span>
+    </td>
+    <td class="b6">جت
+      <span class="tooltip">657,759</span>
+    </td>
+    <td class="b5">جث
+      <span class="tooltip">19,795</span>
+    </td>
+    <td class="b5">جج
+      <span class="tooltip">34,031</span>
+    </td>
+    <td class="b6">جح
+      <span class="tooltip">149,239</span>
+    </td>
+    <td class="b4">جخ
+      <span class="tooltip">3,378</span>
+    </td>
+    <td class="b7">جد
+      <span class="tooltip">1,576,038</span>
+    </td>
+    <td class="b5">جذ
+      <span class="tooltip">94,569</span>
+    </td>
+    <td class="b7">جر
+      <span class="tooltip">1,998,418</span>
+    </td>
+    <td class="b6">جز
+      <span class="tooltip">800,504</span>
+    </td>
+    <td class="b6">جس
+      <span class="tooltip">241,087</span>
+    </td>
+    <td class="b5">جش
+      <span class="tooltip">48,308</span>
+    </td>
+    <td class="b4">جص
+      <span class="tooltip">9,925</span>
+    </td>
+    <td class="b0">جض
+      <span class="tooltip">245</span>
+    </td>
+    <td class="b0">جط
+      <span class="tooltip">242</span>
+    </td>
+    <td class="b0">جظ
+      <span class="tooltip">208</span>
+    </td>
+    <td class="b7">جع
+      <span class="tooltip">2,321,612</span>
+    </td>
+    <td class="b3">جغ
+      <span class="tooltip">1,346</span>
+    </td>
+    <td class="b5">جف
+      <span class="tooltip">115,322</span>
+    </td>
+    <td class="b0">جق
+      <span class="tooltip">826</span>
+    </td>
+    <td class="b5">جك
+      <span class="tooltip">38,954</span>
+    </td>
+    <td class="b7">جل
+      <span class="tooltip">3,276,242</span>
+    </td>
+    <td class="b7">جم
+      <span class="tooltip">2,458,499</span>
+    </td>
+    <td class="b7">جن
+      <span class="tooltip">1,243,266</span>
+    </td>
+    <td class="b7">جه
+      <span class="tooltip">1,759,860</span>
+    </td>
+    <td class="b7">جو
+      <span class="tooltip">2,038,672</span>
+    </td>
+    <td class="b6">جي
+      <span class="tooltip">885,965</span>
+    </td>
+    <td class="b5">جى
+      <span class="tooltip">48,958</span>
+    </td>
+    <td class="b4">جؤ
+      <span class="tooltip">6,823</span>
+    </td>
+    <td class="b0">جء
+      <span class="tooltip">154</span>
+    </td>
+    <td class="b5">جئ
+      <span class="tooltip">115,853</span>
+    </td>
+    <td class="b6">جة
+      <span class="tooltip">515,327</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ح</th>
+    <td class="b7">حا
+      <span class="tooltip">4,961,609</span>
+    </td>
+    <td class="b0">حإ
+      <span class="tooltip">37</span>
+    </td>
+    <td class="b0">حأ
+      <span class="tooltip">242</span>
+    </td>
+    <td class="b0">حآ
+      <span class="tooltip">346</span>
+    </td>
+    <td class="b7">حب
+      <span class="tooltip">1,925,537</span>
+    </td>
+    <td class="b7">حت
+      <span class="tooltip">2,398,295</span>
+    </td>
+    <td class="b5">حث
+      <span class="tooltip">65,493</span>
+    </td>
+    <td class="b7">حج
+      <span class="tooltip">1,121,593</span>
+    </td>
+    <td class="b4">حح
+      <span class="tooltip">19,055</span>
+    </td>
+    <td class="b0">حخ
+      <span class="tooltip">152</span>
+    </td>
+    <td class="b8">حد
+      <span class="tooltip">9,233,681</span>
+    </td>
+    <td class="b6">حذ
+      <span class="tooltip">308,876</span>
+    </td>
+    <td class="b7">حر
+      <span class="tooltip">2,366,781</span>
+    </td>
+    <td class="b6">حز
+      <span class="tooltip">224,369</span>
+    </td>
+    <td class="b7">حس
+      <span class="tooltip">3,581,848</span>
+    </td>
+    <td class="b6">حش
+      <span class="tooltip">209,087</span>
+    </td>
+    <td class="b6">حص
+      <span class="tooltip">553,550</span>
+    </td>
+    <td class="b6">حض
+      <span class="tooltip">354,712</span>
+    </td>
+    <td class="b5">حط
+      <span class="tooltip">99,060</span>
+    </td>
+    <td class="b5">حظ
+      <span class="tooltip">115,154</span>
+    </td>
+    <td class="b0">حع
+      <span class="tooltip">823</span>
+    </td>
+    <td class="b0">حغ
+      <span class="tooltip">22</span>
+    </td>
+    <td class="b6">حف
+      <span class="tooltip">617,471</span>
+    </td>
+    <td class="b7">حق
+      <span class="tooltip">1,279,844</span>
+    </td>
+    <td class="b7">حك
+      <span class="tooltip">1,257,893</span>
+    </td>
+    <td class="b7">حل
+      <span class="tooltip">1,365,373</span>
+    </td>
+    <td class="b8">حم
+      <span class="tooltip">11,409,872</span>
+    </td>
+    <td class="b6">حن
+      <span class="tooltip">953,697</span>
+    </td>
+    <td class="b6">حه
+      <span class="tooltip">311,029</span>
+    </td>
+    <td class="b7">حو
+      <span class="tooltip">1,254,892</span>
+    </td>
+    <td class="b7">حي
+      <span class="tooltip">3,516,330</span>
+    </td>
+    <td class="b5">حى
+      <span class="tooltip">116,471</span>
+    </td>
+    <td class="b0">حؤ
+      <span class="tooltip">429</span>
+    </td>
+    <td class="b0">حء
+      <span class="tooltip">15</span>
+    </td>
+    <td class="b0">حئ
+      <span class="tooltip">167</span>
+    </td>
+    <td class="b6">حة
+      <span class="tooltip">723,179</span>
+    </td>
+  </tr>
+  <tr>
+    <th>خ</th>
+    <td class="b7">خا
+      <span class="tooltip">2,009,931</span>
+    </td>
+    <td class="b0">خإ
+      <span class="tooltip">6</span>
+    </td>
+    <td class="b0">خأ
+      <span class="tooltip">153</span>
+    </td>
+    <td class="b0">خآ
+      <span class="tooltip">200</span>
+    </td>
+    <td class="b7">خب
+      <span class="tooltip">3,190,091</span>
+    </td>
+    <td class="b7">خت
+      <span class="tooltip">1,112,104</span>
+    </td>
+    <td class="b5">خث
+      <span class="tooltip">29,660</span>
+    </td>
+    <td class="b4">خج
+      <span class="tooltip">13,475</span>
+    </td>
+    <td class="b0">خح
+      <span class="tooltip">143</span>
+    </td>
+    <td class="b0">خخ
+      <span class="tooltip">464</span>
+    </td>
+    <td class="b6">خد
+      <span class="tooltip">258,115</span>
+    </td>
+    <td class="b7">خذ
+      <span class="tooltip">1,067,954</span>
+    </td>
+    <td class="b7">خر
+      <span class="tooltip">3,236,155</span>
+    </td>
+    <td class="b6">خز
+      <span class="tooltip">275,558</span>
+    </td>
+    <td class="b5">خس
+      <span class="tooltip">82,823</span>
+    </td>
+    <td class="b6">خش
+      <span class="tooltip">198,414</span>
+    </td>
+    <td class="b6">خص
+      <span class="tooltip">406,712</span>
+    </td>
+    <td class="b5">خض
+      <span class="tooltip">137,455</span>
+    </td>
+    <td class="b6">خط
+      <span class="tooltip">975,977</span>
+    </td>
+    <td class="b3">خظ
+      <span class="tooltip">1,024</span>
+    </td>
+    <td class="b5">خع
+      <span class="tooltip">56,939</span>
+    </td>
+    <td class="b0">خغ
+      <span class="tooltip">58</span>
+    </td>
+    <td class="b6">خف
+      <span class="tooltip">407,106</span>
+    </td>
+    <td class="b3">خق
+      <span class="tooltip">1,529</span>
+    </td>
+    <td class="b3">خك
+      <span class="tooltip">2,669</span>
+    </td>
+    <td class="b7">خل
+      <span class="tooltip">3,154,403</span>
+    </td>
+    <td class="b6">خم
+      <span class="tooltip">754,757</span>
+    </td>
+    <td class="b6">خن
+      <span class="tooltip">205,188</span>
+    </td>
+    <td class="b5">خه
+      <span class="tooltip">71,293</span>
+    </td>
+    <td class="b6">خو
+      <span class="tooltip">723,499</span>
+    </td>
+    <td class="b7">خي
+      <span class="tooltip">1,490,838</span>
+    </td>
+    <td class="b5">خى
+      <span class="tooltip">22,194</span>
+    </td>
+    <td class="b3">خؤ
+      <span class="tooltip">1,441</span>
+    </td>
+    <td class="b0">خء
+      <span class="tooltip">5</span>
+    </td>
+    <td class="b0">خئ
+      <span class="tooltip">196</span>
+    </td>
+    <td class="b5">خة
+      <span class="tooltip">106,358</span>
+    </td>
+  </tr>
+  <tr>
+    <th>د</th>
+    <td class="b7">دا
+      <span class="tooltip">5,204,248</span>
+    </td>
+    <td class="b3">دإ
+      <span class="tooltip">1,656</span>
+    </td>
+    <td class="b5">دأ
+      <span class="tooltip">129,078</span>
+    </td>
+    <td class="b3">دآ
+      <span class="tooltip">2,656</span>
+    </td>
+    <td class="b6">دب
+      <span class="tooltip">426,417</span>
+    </td>
+    <td class="b6">دت
+      <span class="tooltip">924,306</span>
+    </td>
+    <td class="b7">دث
+      <span class="tooltip">5,139,067</span>
+    </td>
+    <td class="b5">دج
+      <span class="tooltip">96,844</span>
+    </td>
+    <td class="b6">دح
+      <span class="tooltip">169,038</span>
+    </td>
+    <td class="b6">دخ
+      <span class="tooltip">954,849</span>
+    </td>
+    <td class="b6">دد
+      <span class="tooltip">356,649</span>
+    </td>
+    <td class="b0">دذ
+      <span class="tooltip">295</span>
+    </td>
+    <td class="b7">در
+      <span class="tooltip">2,320,434</span>
+    </td>
+    <td class="b4">دز
+      <span class="tooltip">4,408</span>
+    </td>
+    <td class="b6">دس
+      <span class="tooltip">211,797</span>
+    </td>
+    <td class="b4">دش
+      <span class="tooltip">19,363</span>
+    </td>
+    <td class="b0">دص
+      <span class="tooltip">336</span>
+    </td>
+    <td class="b0">دض
+      <span class="tooltip">241</span>
+    </td>
+    <td class="b0">دط
+      <span class="tooltip">118</span>
+    </td>
+    <td class="b0">دظ
+      <span class="tooltip">96</span>
+    </td>
+    <td class="b7">دع
+      <span class="tooltip">1,146,392</span>
+    </td>
+    <td class="b5">دغ
+      <span class="tooltip">42,286</span>
+    </td>
+    <td class="b6">دف
+      <span class="tooltip">413,152</span>
+    </td>
+    <td class="b6">دق
+      <span class="tooltip">745,303</span>
+    </td>
+    <td class="b6">دك
+      <span class="tooltip">409,054</span>
+    </td>
+    <td class="b7">دل
+      <span class="tooltip">1,187,682</span>
+    </td>
+    <td class="b7">دم
+      <span class="tooltip">1,909,462</span>
+    </td>
+    <td class="b7">دن
+      <span class="tooltip">1,179,552</span>
+    </td>
+    <td class="b7">ده
+      <span class="tooltip">3,080,369</span>
+    </td>
+    <td class="b7">دو
+      <span class="tooltip">2,015,143</span>
+    </td>
+    <td class="b7">دي
+      <span class="tooltip">6,541,569</span>
+    </td>
+    <td class="b6">دى
+      <span class="tooltip">531,150</span>
+    </td>
+    <td class="b4">دؤ
+      <span class="tooltip">14,217</span>
+    </td>
+    <td class="b4">دء
+      <span class="tooltip">14,274</span>
+    </td>
+    <td class="b5">دئ
+      <span class="tooltip">25,846</span>
+    </td>
+    <td class="b7">دة
+      <span class="tooltip">2,351,838</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ذ</th>
+    <td class="b8">ذا
+      <span class="tooltip">7,363,885</span>
+    </td>
+    <td class="b0">ذإ
+      <span class="tooltip">19</span>
+    </td>
+    <td class="b4">ذأ
+      <span class="tooltip">3,232</span>
+    </td>
+    <td class="b3">ذآ
+      <span class="tooltip">1,267</span>
+    </td>
+    <td class="b6">ذب
+      <span class="tooltip">528,436</span>
+    </td>
+    <td class="b5">ذت
+      <span class="tooltip">124,104</span>
+    </td>
+    <td class="b0">ذث
+      <span class="tooltip">96</span>
+    </td>
+    <td class="b4">ذج
+      <span class="tooltip">6,566</span>
+    </td>
+    <td class="b4">ذح
+      <span class="tooltip">12,510</span>
+    </td>
+    <td class="b4">ذخ
+      <span class="tooltip">18,429</span>
+    </td>
+    <td class="b3">ذد
+      <span class="tooltip">1,057</span>
+    </td>
+    <td class="b4">ذذ
+      <span class="tooltip">5,343</span>
+    </td>
+    <td class="b6">ذر
+      <span class="tooltip">665,579</span>
+    </td>
+    <td class="b0">ذز
+      <span class="tooltip">168</span>
+    </td>
+    <td class="b0">ذس
+      <span class="tooltip">384</span>
+    </td>
+    <td class="b3">ذش
+      <span class="tooltip">1,220</span>
+    </td>
+    <td class="b0">ذص
+      <span class="tooltip">15</span>
+    </td>
+    <td class="b0">ذض
+      <span class="tooltip">34</span>
+    </td>
+    <td class="b0">ذط
+      <span class="tooltip">78</span>
+    </td>
+    <td class="b0">ذظ
+      <span class="tooltip">7</span>
+    </td>
+    <td class="b5">ذع
+      <span class="tooltip">53,048</span>
+    </td>
+    <td class="b3">ذغ
+      <span class="tooltip">1,143</span>
+    </td>
+    <td class="b6">ذف
+      <span class="tooltip">149,024</span>
+    </td>
+    <td class="b5">ذق
+      <span class="tooltip">33,533</span>
+    </td>
+    <td class="b7">ذك
+      <span class="tooltip">2,062,107</span>
+    </td>
+    <td class="b7">ذل
+      <span class="tooltip">3,950,367</span>
+    </td>
+    <td class="b6">ذم
+      <span class="tooltip">172,643</span>
+    </td>
+    <td class="b6">ذن
+      <span class="tooltip">590,267</span>
+    </td>
+    <td class="b7">ذه
+      <span class="tooltip">1,868,629</span>
+    </td>
+    <td class="b6">ذو
+      <span class="tooltip">435,661</span>
+    </td>
+    <td class="b7">ذي
+      <span class="tooltip">2,556,182</span>
+    </td>
+    <td class="b5">ذى
+      <span class="tooltip">114,831</span>
+    </td>
+    <td class="b5">ذؤ
+      <span class="tooltip">20,685</span>
+    </td>
+    <td class="b0">ذء
+      <span class="tooltip">533</span>
+    </td>
+    <td class="b5">ذئ
+      <span class="tooltip">50,858</span>
+    </td>
+    <td class="b5">ذة
+      <span class="tooltip">68,673</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ر</th>
+    <td class="b8">را
+      <span class="tooltip">9,383,533</span>
+    </td>
+    <td class="b0">رإ
+      <span class="tooltip">962</span>
+    </td>
+    <td class="b7">رأ
+      <span class="tooltip">2,393,709</span>
+    </td>
+    <td class="b6">رآ
+      <span class="tooltip">427,401</span>
+    </td>
+    <td class="b7">رب
+      <span class="tooltip">4,320,490</span>
+    </td>
+    <td class="b7">رت
+      <span class="tooltip">1,677,164</span>
+    </td>
+    <td class="b6">رث
+      <span class="tooltip">739,318</span>
+    </td>
+    <td class="b7">رج
+      <span class="tooltip">4,597,032</span>
+    </td>
+    <td class="b7">رح
+      <span class="tooltip">2,254,433</span>
+    </td>
+    <td class="b6">رخ
+      <span class="tooltip">176,464</span>
+    </td>
+    <td class="b7">رد
+      <span class="tooltip">1,583,331</span>
+    </td>
+    <td class="b5">رذ
+      <span class="tooltip">29,259</span>
+    </td>
+    <td class="b6">رر
+      <span class="tooltip">181,655</span>
+    </td>
+    <td class="b6">رز
+      <span class="tooltip">664,698</span>
+    </td>
+    <td class="b7">رس
+      <span class="tooltip">3,736,383</span>
+    </td>
+    <td class="b6">رش
+      <span class="tooltip">413,540</span>
+    </td>
+    <td class="b5">رص
+      <span class="tooltip">114,966</span>
+    </td>
+    <td class="b7">رض
+      <span class="tooltip">2,243,977</span>
+    </td>
+    <td class="b6">رط
+      <span class="tooltip">438,237</span>
+    </td>
+    <td class="b5">رظ
+      <span class="tooltip">20,148</span>
+    </td>
+    <td class="b6">رع
+      <span class="tooltip">853,554</span>
+    </td>
+    <td class="b6">رغ
+      <span class="tooltip">223,390</span>
+    </td>
+    <td class="b7">رف
+      <span class="tooltip">2,132,865</span>
+    </td>
+    <td class="b7">رق
+      <span class="tooltip">1,885,097</span>
+    </td>
+    <td class="b7">رك
+      <span class="tooltip">2,484,619</span>
+    </td>
+    <td class="b4">رل
+      <span class="tooltip">13,312</span>
+    </td>
+    <td class="b7">رم
+      <span class="tooltip">1,790,988</span>
+    </td>
+    <td class="b7">رن
+      <span class="tooltip">2,898,790</span>
+    </td>
+    <td class="b7">ره
+      <span class="tooltip">4,069,744</span>
+    </td>
+    <td class="b7">رو
+      <span class="tooltip">6,766,344</span>
+    </td>
+    <td class="b8">ري
+      <span class="tooltip">8,061,584</span>
+    </td>
+    <td class="b7">رى
+      <span class="tooltip">1,289,543</span>
+    </td>
+    <td class="b6">رؤ
+      <span class="tooltip">195,555</span>
+    </td>
+    <td class="b5">رء
+      <span class="tooltip">94,124</span>
+    </td>
+    <td class="b6">رئ
+      <span class="tooltip">295,082</span>
+    </td>
+    <td class="b7">رة
+      <span class="tooltip">4,295,543</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ز</th>
+    <td class="b7">زا
+      <span class="tooltip">1,795,456</span>
+    </td>
+    <td class="b0">زإ
+      <span class="tooltip">81</span>
+    </td>
+    <td class="b5">زأ
+      <span class="tooltip">37,455</span>
+    </td>
+    <td class="b3">زآ
+      <span class="tooltip">2,040</span>
+    </td>
+    <td class="b6">زب
+      <span class="tooltip">480,533</span>
+    </td>
+    <td class="b5">زت
+      <span class="tooltip">97,033</span>
+    </td>
+    <td class="b0">زث
+      <span class="tooltip">65</span>
+    </td>
+    <td class="b5">زج
+      <span class="tooltip">113,543</span>
+    </td>
+    <td class="b5">زح
+      <span class="tooltip">56,183</span>
+    </td>
+    <td class="b5">زخ
+      <span class="tooltip">21,953</span>
+    </td>
+    <td class="b6">زد
+      <span class="tooltip">216,134</span>
+    </td>
+    <td class="b0">زذ
+      <span class="tooltip">897</span>
+    </td>
+    <td class="b6">زر
+      <span class="tooltip">523,976</span>
+    </td>
+    <td class="b4">زز
+      <span class="tooltip">10,719</span>
+    </td>
+    <td class="b4">زس
+      <span class="tooltip">2,978</span>
+    </td>
+    <td class="b0">زش
+      <span class="tooltip">179</span>
+    </td>
+    <td class="b0">زص
+      <span class="tooltip">29</span>
+    </td>
+    <td class="b0">زض
+      <span class="tooltip">117</span>
+    </td>
+    <td class="b3">زط
+      <span class="tooltip">1,870</span>
+    </td>
+    <td class="b0">زظ
+      <span class="tooltip">51</span>
+    </td>
+    <td class="b6">زع
+      <span class="tooltip">410,345</span>
+    </td>
+    <td class="b5">زغ
+      <span class="tooltip">20,201</span>
+    </td>
+    <td class="b5">زف
+      <span class="tooltip">64,846</span>
+    </td>
+    <td class="b6">زق
+      <span class="tooltip">188,187</span>
+    </td>
+    <td class="b6">زك
+      <span class="tooltip">345,686</span>
+    </td>
+    <td class="b7">زل
+      <span class="tooltip">1,207,828</span>
+    </td>
+    <td class="b6">زم
+      <span class="tooltip">901,636</span>
+    </td>
+    <td class="b6">زن
+      <span class="tooltip">513,959</span>
+    </td>
+    <td class="b6">زه
+      <span class="tooltip">647,624</span>
+    </td>
+    <td class="b7">زو
+      <span class="tooltip">1,072,995</span>
+    </td>
+    <td class="b7">زي
+      <span class="tooltip">3,022,759</span>
+    </td>
+    <td class="b5">زى
+      <span class="tooltip">70,798</span>
+    </td>
+    <td class="b4">زؤ
+      <span class="tooltip">4,589</span>
+    </td>
+    <td class="b5">زء
+      <span class="tooltip">98,711</span>
+    </td>
+    <td class="b5">زئ
+      <span class="tooltip">52,425</span>
+    </td>
+    <td class="b6">زة
+      <span class="tooltip">467,316</span>
+    </td>
+  </tr>
+  <tr>
+    <th>س</th>
+    <td class="b7">سا
+      <span class="tooltip">3,952,249</span>
+    </td>
+    <td class="b0">سإ
+      <span class="tooltip">103</span>
+    </td>
+    <td class="b6">سأ
+      <span class="tooltip">911,661</span>
+    </td>
+    <td class="b4">سآ
+      <span class="tooltip">4,426</span>
+    </td>
+    <td class="b7">سب
+      <span class="tooltip">2,043,219</span>
+    </td>
+    <td class="b7">ست
+      <span class="tooltip">3,489,425</span>
+    </td>
+    <td class="b0">سث
+      <span class="tooltip">263</span>
+    </td>
+    <td class="b6">سج
+      <span class="tooltip">567,030</span>
+    </td>
+    <td class="b7">سح
+      <span class="tooltip">1,056,518</span>
+    </td>
+    <td class="b6">سخ
+      <span class="tooltip">407,039</span>
+    </td>
+    <td class="b6">سد
+      <span class="tooltip">625,755</span>
+    </td>
+    <td class="b4">سذ
+      <span class="tooltip">2,889</span>
+    </td>
+    <td class="b7">سر
+      <span class="tooltip">1,698,639</span>
+    </td>
+    <td class="b0">سز
+      <span class="tooltip">762</span>
+    </td>
+    <td class="b5">سس
+      <span class="tooltip">23,836</span>
+    </td>
+    <td class="b0">سش
+      <span class="tooltip">323</span>
+    </td>
+    <td class="b0">سص
+      <span class="tooltip">111</span>
+    </td>
+    <td class="b0">سض
+      <span class="tooltip">103</span>
+    </td>
+    <td class="b6">سط
+      <span class="tooltip">397,279</span>
+    </td>
+    <td class="b0">سظ
+      <span class="tooltip">33</span>
+    </td>
+    <td class="b7">سع
+      <span class="tooltip">2,531,509</span>
+    </td>
+    <td class="b4">سغ
+      <span class="tooltip">9,897</span>
+    </td>
+    <td class="b7">سف
+      <span class="tooltip">1,309,038</span>
+    </td>
+    <td class="b6">سق
+      <span class="tooltip">589,876</span>
+    </td>
+    <td class="b7">سك
+      <span class="tooltip">1,040,433</span>
+    </td>
+    <td class="b8">سل
+      <span class="tooltip">8,033,348</span>
+    </td>
+    <td class="b7">سم
+      <span class="tooltip">5,576,019</span>
+    </td>
+    <td class="b7">سن
+      <span class="tooltip">4,110,667</span>
+    </td>
+    <td class="b7">سه
+      <span class="tooltip">1,497,162</span>
+    </td>
+    <td class="b7">سو
+      <span class="tooltip">4,354,884</span>
+    </td>
+    <td class="b7">سي
+      <span class="tooltip">3,376,126</span>
+    </td>
+    <td class="b7">سى
+      <span class="tooltip">1,091,972</span>
+    </td>
+    <td class="b5">سؤ
+      <span class="tooltip">76,709</span>
+    </td>
+    <td class="b0">سء
+      <span class="tooltip">548</span>
+    </td>
+    <td class="b6">سئ
+      <span class="tooltip">158,673</span>
+    </td>
+    <td class="b6">سة
+      <span class="tooltip">343,640</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ش</th>
+    <td class="b7">شا
+      <span class="tooltip">2,429,970</span>
+    </td>
+    <td class="b0">شإ
+      <span class="tooltip">378</span>
+    </td>
+    <td class="b6">شأ
+      <span class="tooltip">153,433</span>
+    </td>
+    <td class="b4">شآ
+      <span class="tooltip">5,892</span>
+    </td>
+    <td class="b6">شب
+      <span class="tooltip">622,442</span>
+    </td>
+    <td class="b6">شت
+      <span class="tooltip">722,885</span>
+    </td>
+    <td class="b3">شث
+      <span class="tooltip">2,457</span>
+    </td>
+    <td class="b6">شج
+      <span class="tooltip">291,168</span>
+    </td>
+    <td class="b5">شح
+      <span class="tooltip">86,761</span>
+    </td>
+    <td class="b5">شخ
+      <span class="tooltip">70,505</span>
+    </td>
+    <td class="b6">شد
+      <span class="tooltip">828,430</span>
+    </td>
+    <td class="b5">شذ
+      <span class="tooltip">23,511</span>
+    </td>
+    <td class="b7">شر
+      <span class="tooltip">3,138,074</span>
+    </td>
+    <td class="b4">شز
+      <span class="tooltip">10,261</span>
+    </td>
+    <td class="b4">شس
+      <span class="tooltip">4,393</span>
+    </td>
+    <td class="b4">شش
+      <span class="tooltip">4,445</span>
+    </td>
+    <td class="b4">شص
+      <span class="tooltip">2,940</span>
+    </td>
+    <td class="b0">شض
+      <span class="tooltip">86</span>
+    </td>
+    <td class="b5">شط
+      <span class="tooltip">65,815</span>
+    </td>
+    <td class="b4">شظ
+      <span class="tooltip">4,829</span>
+    </td>
+    <td class="b7">شع
+      <span class="tooltip">1,136,050</span>
+    </td>
+    <td class="b5">شغ
+      <span class="tooltip">76,128</span>
+    </td>
+    <td class="b6">شف
+      <span class="tooltip">345,433</span>
+    </td>
+    <td class="b6">شق
+      <span class="tooltip">468,085</span>
+    </td>
+    <td class="b6">شك
+      <span class="tooltip">386,350</span>
+    </td>
+    <td class="b5">شل
+      <span class="tooltip">41,719</span>
+    </td>
+    <td class="b6">شم
+      <span class="tooltip">623,764</span>
+    </td>
+    <td class="b5">شن
+      <span class="tooltip">111,749</span>
+    </td>
+    <td class="b7">شه
+      <span class="tooltip">1,376,322</span>
+    </td>
+    <td class="b6">شو
+      <span class="tooltip">326,574</span>
+    </td>
+    <td class="b7">شي
+      <span class="tooltip">2,823,204</span>
+    </td>
+    <td class="b6">شى
+      <span class="tooltip">139,802</span>
+    </td>
+    <td class="b4">شؤ
+      <span class="tooltip">12,071</span>
+    </td>
+    <td class="b0">شء
+      <span class="tooltip">683</span>
+    </td>
+    <td class="b6">شئ
+      <span class="tooltip">302,772</span>
+    </td>
+    <td class="b6">شة
+      <span class="tooltip">375,312</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ص</th>
+    <td class="b7">صا
+      <span class="tooltip">3,016,909</span>
+    </td>
+    <td class="b0">صإ
+      <span class="tooltip">11</span>
+    </td>
+    <td class="b3">صأ
+      <span class="tooltip">1,360</span>
+    </td>
+    <td class="b0">صآ
+      <span class="tooltip">176</span>
+    </td>
+    <td class="b7">صب
+      <span class="tooltip">1,185,390</span>
+    </td>
+    <td class="b5">صت
+      <span class="tooltip">82,735</span>
+    </td>
+    <td class="b0">صث
+      <span class="tooltip">49</span>
+    </td>
+    <td class="b0">صج
+      <span class="tooltip">259</span>
+    </td>
+    <td class="b7">صح
+      <span class="tooltip">1,644,703</span>
+    </td>
+    <td class="b5">صخ
+      <span class="tooltip">53,404</span>
+    </td>
+    <td class="b7">صد
+      <span class="tooltip">1,175,272</span>
+    </td>
+    <td class="b0">صذ
+      <span class="tooltip">31</span>
+    </td>
+    <td class="b7">صر
+      <span class="tooltip">2,122,058</span>
+    </td>
+    <td class="b0">صز
+      <span class="tooltip">67</span>
+    </td>
+    <td class="b0">صس
+      <span class="tooltip">70</span>
+    </td>
+    <td class="b0">صش
+      <span class="tooltip">18</span>
+    </td>
+    <td class="b5">صص
+      <span class="tooltip">51,282</span>
+    </td>
+    <td class="b0">صض
+      <span class="tooltip">89</span>
+    </td>
+    <td class="b5">صط
+      <span class="tooltip">84,740</span>
+    </td>
+    <td class="b0">صظ
+      <span class="tooltip">9</span>
+    </td>
+    <td class="b6">صع
+      <span class="tooltip">262,071</span>
+    </td>
+    <td class="b6">صغ
+      <span class="tooltip">229,150</span>
+    </td>
+    <td class="b7">صف
+      <span class="tooltip">1,294,024</span>
+    </td>
+    <td class="b5">صق
+      <span class="tooltip">61,146</span>
+    </td>
+    <td class="b4">صك
+      <span class="tooltip">16,632</span>
+    </td>
+    <td class="b7">صل
+      <span class="tooltip">6,406,672</span>
+    </td>
+    <td class="b6">صم
+      <span class="tooltip">621,359</span>
+    </td>
+    <td class="b6">صن
+      <span class="tooltip">536,063</span>
+    </td>
+    <td class="b6">صه
+      <span class="tooltip">145,164</span>
+    </td>
+    <td class="b7">صو
+      <span class="tooltip">1,506,567</span>
+    </td>
+    <td class="b7">صي
+      <span class="tooltip">1,485,715</span>
+    </td>
+    <td class="b5">صى
+      <span class="tooltip">135,982</span>
+    </td>
+    <td class="b0">صؤ
+      <span class="tooltip">962</span>
+    </td>
+    <td class="b0">صء
+      <span class="tooltip">15</span>
+    </td>
+    <td class="b0">صئ
+      <span class="tooltip">912</span>
+    </td>
+    <td class="b6">صة
+      <span class="tooltip">282,895</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ض</th>
+    <td class="b7">ضا
+      <span class="tooltip">1,722,404</span>
+    </td>
+    <td class="b0">ضإ
+      <span class="tooltip">32</span>
+    </td>
+    <td class="b5">ضأ
+      <span class="tooltip">84,482</span>
+    </td>
+    <td class="b3">ضآ
+      <span class="tooltip">1,001</span>
+    </td>
+    <td class="b6">ضب
+      <span class="tooltip">309,151</span>
+    </td>
+    <td class="b6">ضت
+      <span class="tooltip">169,942</span>
+    </td>
+    <td class="b0">ضث
+      <span class="tooltip">40</span>
+    </td>
+    <td class="b5">ضج
+      <span class="tooltip">44,402</span>
+    </td>
+    <td class="b6">ضح
+      <span class="tooltip">329,807</span>
+    </td>
+    <td class="b5">ضخ
+      <span class="tooltip">24,887</span>
+    </td>
+    <td class="b5">ضد
+      <span class="tooltip">82,557</span>
+    </td>
+    <td class="b0">ضذ
+      <span class="tooltip">33</span>
+    </td>
+    <td class="b7">ضر
+      <span class="tooltip">1,308,067</span>
+    </td>
+    <td class="b0">ضز
+      <span class="tooltip">403</span>
+    </td>
+    <td class="b0">ضس
+      <span class="tooltip">44</span>
+    </td>
+    <td class="b0">ضش
+      <span class="tooltip">53</span>
+    </td>
+    <td class="b0">ضص
+      <span class="tooltip">106</span>
+    </td>
+    <td class="b4">ضض
+      <span class="tooltip">8,617</span>
+    </td>
+    <td class="b5">ضط
+      <span class="tooltip">81,185</span>
+    </td>
+    <td class="b0">ضظ
+      <span class="tooltip">87</span>
+    </td>
+    <td class="b7">ضع
+      <span class="tooltip">1,035,959</span>
+    </td>
+    <td class="b5">ضغ
+      <span class="tooltip">26,837</span>
+    </td>
+    <td class="b5">ضف
+      <span class="tooltip">28,740</span>
+    </td>
+    <td class="b3">ضق
+      <span class="tooltip">2,211</span>
+    </td>
+    <td class="b5">ضك
+      <span class="tooltip">34,958</span>
+    </td>
+    <td class="b6">ضل
+      <span class="tooltip">979,919</span>
+    </td>
+    <td class="b6">ضم
+      <span class="tooltip">585,176</span>
+    </td>
+    <td class="b5">ضن
+      <span class="tooltip">72,910</span>
+    </td>
+    <td class="b6">ضه
+      <span class="tooltip">558,800</span>
+    </td>
+    <td class="b6">ضو
+      <span class="tooltip">379,718</span>
+    </td>
+    <td class="b7">ضي
+      <span class="tooltip">1,619,283</span>
+    </td>
+    <td class="b6">ضى
+      <span class="tooltip">369,402</span>
+    </td>
+    <td class="b4">ضؤ
+      <span class="tooltip">3,683</span>
+    </td>
+    <td class="b0">ضء
+      <span class="tooltip">48</span>
+    </td>
+    <td class="b4">ضئ
+      <span class="tooltip">10,536</span>
+    </td>
+    <td class="b6">ضة
+      <span class="tooltip">242,945</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ط</th>
+    <td class="b7">طا
+      <span class="tooltip">2,677,402</span>
+    </td>
+    <td class="b3">طإ
+      <span class="tooltip">2,438</span>
+    </td>
+    <td class="b6">طأ
+      <span class="tooltip">204,066</span>
+    </td>
+    <td class="b3">طآ
+      <span class="tooltip">1,281</span>
+    </td>
+    <td class="b6">طب
+      <span class="tooltip">819,576</span>
+    </td>
+    <td class="b5">طت
+      <span class="tooltip">121,381</span>
+    </td>
+    <td class="b3">طث
+      <span class="tooltip">1,494</span>
+    </td>
+    <td class="b4">طج
+      <span class="tooltip">13,518</span>
+    </td>
+    <td class="b5">طح
+      <span class="tooltip">77,691</span>
+    </td>
+    <td class="b5">طخ
+      <span class="tooltip">19,615</span>
+    </td>
+    <td class="b3">طد
+      <span class="tooltip">2,629</span>
+    </td>
+    <td class="b0">طذ
+      <span class="tooltip">30</span>
+    </td>
+    <td class="b7">طر
+      <span class="tooltip">1,240,967</span>
+    </td>
+    <td class="b0">طز
+      <span class="tooltip">519</span>
+    </td>
+    <td class="b5">طس
+      <span class="tooltip">33,618</span>
+    </td>
+    <td class="b5">طش
+      <span class="tooltip">40,391</span>
+    </td>
+    <td class="b0">طص
+      <span class="tooltip">24</span>
+    </td>
+    <td class="b0">طض
+      <span class="tooltip">69</span>
+    </td>
+    <td class="b4">طط
+      <span class="tooltip">10,681</span>
+    </td>
+    <td class="b0">طظ
+      <span class="tooltip">43</span>
+    </td>
+    <td class="b6">طع
+      <span class="tooltip">922,016</span>
+    </td>
+    <td class="b5">طغ
+      <span class="tooltip">25,398</span>
+    </td>
+    <td class="b6">طف
+      <span class="tooltip">267,293</span>
+    </td>
+    <td class="b5">طق
+      <span class="tooltip">82,733</span>
+    </td>
+    <td class="b4">طك
+      <span class="tooltip">16,045</span>
+    </td>
+    <td class="b7">طل
+      <span class="tooltip">1,593,019</span>
+    </td>
+    <td class="b6">طم
+      <span class="tooltip">230,279</span>
+    </td>
+    <td class="b6">طن
+      <span class="tooltip">389,143</span>
+    </td>
+    <td class="b6">طه
+      <span class="tooltip">386,582</span>
+    </td>
+    <td class="b6">طو
+      <span class="tooltip">815,034</span>
+    </td>
+    <td class="b7">طي
+      <span class="tooltip">1,328,078</span>
+    </td>
+    <td class="b5">طى
+      <span class="tooltip">112,150</span>
+    </td>
+    <td class="b4">طؤ
+      <span class="tooltip">12,398</span>
+    </td>
+    <td class="b5">طء
+      <span class="tooltip">27,238</span>
+    </td>
+    <td class="b5">طئ
+      <span class="tooltip">79,311</span>
+    </td>
+    <td class="b6">طة
+      <span class="tooltip">189,724</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ظ</th>
+    <td class="b6">ظا
+      <span class="tooltip">461,504</span>
+    </td>
+    <td class="b0">ظإ
+      <span class="tooltip">7</span>
+    </td>
+    <td class="b3">ظأ
+      <span class="tooltip">1,082</span>
+    </td>
+    <td class="b0">ظآ
+      <span class="tooltip">285</span>
+    </td>
+    <td class="b5">ظب
+      <span class="tooltip">43,592</span>
+    </td>
+    <td class="b5">ظت
+      <span class="tooltip">27,240</span>
+    </td>
+    <td class="b0">ظث
+      <span class="tooltip">14</span>
+    </td>
+    <td class="b0">ظج
+      <span class="tooltip">15</span>
+    </td>
+    <td class="b0">ظح
+      <span class="tooltip">22</span>
+    </td>
+    <td class="b0">ظخ
+      <span class="tooltip">28</span>
+    </td>
+    <td class="b0">ظد
+      <span class="tooltip">5</span>
+    </td>
+    <td class="b0">ظذ
+      <span class="tooltip">12</span>
+    </td>
+    <td class="b6">ظر
+      <span class="tooltip">700,631</span>
+    </td>
+    <td class="b0">ظز
+      <span class="tooltip">28</span>
+    </td>
+    <td class="b0">ظس
+      <span class="tooltip">6</span>
+    </td>
+    <td class="b0">ظش
+      <span class="tooltip">26</span>
+    </td>
+    <td class="b0">ظص
+      <span class="tooltip">6</span>
+    </td>
+    <td class="b0">ظض
+      <span class="tooltip">17</span>
+    </td>
+    <td class="b0">ظط
+      <span class="tooltip">156</span>
+    </td>
+    <td class="b0">ظظ
+      <span class="tooltip">520</span>
+    </td>
+    <td class="b5">ظع
+      <span class="tooltip">22,432</span>
+    </td>
+    <td class="b0">ظغ
+      <span class="tooltip">289</span>
+    </td>
+    <td class="b5">ظف
+      <span class="tooltip">137,092</span>
+    </td>
+    <td class="b0">ظق
+      <span class="tooltip">75</span>
+    </td>
+    <td class="b4">ظك
+      <span class="tooltip">10,562</span>
+    </td>
+    <td class="b6">ظل
+      <span class="tooltip">373,976</span>
+    </td>
+    <td class="b6">ظم
+      <span class="tooltip">269,862</span>
+    </td>
+    <td class="b6">ظن
+      <span class="tooltip">238,648</span>
+    </td>
+    <td class="b6">ظه
+      <span class="tooltip">599,767</span>
+    </td>
+    <td class="b5">ظو
+      <span class="tooltip">64,279</span>
+    </td>
+    <td class="b6">ظي
+      <span class="tooltip">281,639</span>
+    </td>
+    <td class="b4">ظى
+      <span class="tooltip">7,986</span>
+    </td>
+    <td class="b0">ظؤ
+      <span class="tooltip">661</span>
+    </td>
+    <td class="b0">ظء
+      <span class="tooltip">13</span>
+    </td>
+    <td class="b4">ظئ
+      <span class="tooltip">3,481</span>
+    </td>
+    <td class="b5">ظة
+      <span class="tooltip">96,561</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ع</th>
+    <td class="b7">عا
+      <span class="tooltip">6,240,168</span>
+    </td>
+    <td class="b0">عإ
+      <span class="tooltip">295</span>
+    </td>
+    <td class="b0">عأ
+      <span class="tooltip">479</span>
+    </td>
+    <td class="b0">عآ
+      <span class="tooltip">574</span>
+    </td>
+    <td class="b8">عب
+      <span class="tooltip">9,785,036</span>
+    </td>
+    <td class="b7">عت
+      <span class="tooltip">2,993,097</span>
+    </td>
+    <td class="b7">عث
+      <span class="tooltip">1,035,136</span>
+    </td>
+    <td class="b6">عج
+      <span class="tooltip">712,498</span>
+    </td>
+    <td class="b0">عح
+      <span class="tooltip">276</span>
+    </td>
+    <td class="b0">عخ
+      <span class="tooltip">120</span>
+    </td>
+    <td class="b7">عد
+      <span class="tooltip">3,915,849</span>
+    </td>
+    <td class="b6">عذ
+      <span class="tooltip">410,249</span>
+    </td>
+    <td class="b7">عر
+      <span class="tooltip">3,087,736</span>
+    </td>
+    <td class="b7">عز
+      <span class="tooltip">1,156,132</span>
+    </td>
+    <td class="b6">عس
+      <span class="tooltip">323,189</span>
+    </td>
+    <td class="b6">عش
+      <span class="tooltip">987,920</span>
+    </td>
+    <td class="b6">عص
+      <span class="tooltip">462,247</span>
+    </td>
+    <td class="b7">عض
+      <span class="tooltip">1,091,310</span>
+    </td>
+    <td class="b6">عط
+      <span class="tooltip">918,692</span>
+    </td>
+    <td class="b6">عظ
+      <span class="tooltip">499,444</span>
+    </td>
+    <td class="b3">عع
+      <span class="tooltip">1,068</span>
+    </td>
+    <td class="b0">عغ
+      <span class="tooltip">192</span>
+    </td>
+    <td class="b7">عف
+      <span class="tooltip">1,291,767</span>
+    </td>
+    <td class="b7">عق
+      <span class="tooltip">1,385,623</span>
+    </td>
+    <td class="b6">عك
+      <span class="tooltip">360,372</span>
+    </td>
+    <td class="b8">عل
+      <span class="tooltip">20,500,606</span>
+    </td>
+    <td class="b7">عم
+      <span class="tooltip">6,059,838</span>
+    </td>
+    <td class="b8">عن
+      <span class="tooltip">17,231,778</span>
+    </td>
+    <td class="b7">عه
+      <span class="tooltip">1,796,510</span>
+    </td>
+    <td class="b7">عو
+      <span class="tooltip">2,109,575</span>
+    </td>
+    <td class="b7">عي
+      <span class="tooltip">5,606,467</span>
+    </td>
+    <td class="b6">عى
+      <span class="tooltip">205,726</span>
+    </td>
+    <td class="b0">عؤ
+      <span class="tooltip">129</span>
+    </td>
+    <td class="b0">عء
+      <span class="tooltip">48</span>
+    </td>
+    <td class="b0">عئ
+      <span class="tooltip">117</span>
+    </td>
+    <td class="b7">عة
+      <span class="tooltip">2,186,580</span>
+    </td>
+  </tr>
+  <tr>
+    <th>غ</th>
+    <td class="b6">غا
+      <span class="tooltip">802,316</span>
+    </td>
+    <td class="b0">غإ
+      <span class="tooltip">15</span>
+    </td>
+    <td class="b0">غأ
+      <span class="tooltip">48</span>
+    </td>
+    <td class="b0">غآ
+      <span class="tooltip">316</span>
+    </td>
+    <td class="b6">غب
+      <span class="tooltip">166,294</span>
+    </td>
+    <td class="b6">غت
+      <span class="tooltip">210,289</span>
+    </td>
+    <td class="b4">غث
+      <span class="tooltip">16,052</span>
+    </td>
+    <td class="b3">غج
+      <span class="tooltip">1,618</span>
+    </td>
+    <td class="b0">غح
+      <span class="tooltip">39</span>
+    </td>
+    <td class="b0">غخ
+      <span class="tooltip">15</span>
+    </td>
+    <td class="b6">غد
+      <span class="tooltip">553,457</span>
+    </td>
+    <td class="b5">غذ
+      <span class="tooltip">38,979</span>
+    </td>
+    <td class="b6">غر
+      <span class="tooltip">754,748</span>
+    </td>
+    <td class="b6">غز
+      <span class="tooltip">199,712</span>
+    </td>
+    <td class="b6">غس
+      <span class="tooltip">226,610</span>
+    </td>
+    <td class="b5">غش
+      <span class="tooltip">70,204</span>
+    </td>
+    <td class="b5">غص
+      <span class="tooltip">72,731</span>
+    </td>
+    <td class="b6">غض
+      <span class="tooltip">218,260</span>
+    </td>
+    <td class="b5">غط
+      <span class="tooltip">61,273</span>
+    </td>
+    <td class="b0">غظ
+      <span class="tooltip">415</span>
+    </td>
+    <td class="b0">غع
+      <span class="tooltip">149</span>
+    </td>
+    <td class="b0">غغ
+      <span class="tooltip">131</span>
+    </td>
+    <td class="b6">غف
+      <span class="tooltip">320,566</span>
+    </td>
+    <td class="b0">غق
+      <span class="tooltip">871</span>
+    </td>
+    <td class="b4">غك
+      <span class="tooltip">10,238</span>
+    </td>
+    <td class="b6">غل
+      <span class="tooltip">673,480</span>
+    </td>
+    <td class="b6">غم
+      <span class="tooltip">178,478</span>
+    </td>
+    <td class="b6">غن
+      <span class="tooltip">594,836</span>
+    </td>
+    <td class="b5">غه
+      <span class="tooltip">82,485</span>
+    </td>
+    <td class="b6">غو
+      <span class="tooltip">245,452</span>
+    </td>
+    <td class="b7">غي
+      <span class="tooltip">2,720,130</span>
+    </td>
+    <td class="b5">غى
+      <span class="tooltip">33,107</span>
+    </td>
+    <td class="b0">غؤ
+      <span class="tooltip">453</span>
+    </td>
+    <td class="b0">غء
+      <span class="tooltip">5</span>
+    </td>
+    <td class="b0">غئ
+      <span class="tooltip">80</span>
+    </td>
+    <td class="b6">غة
+      <span class="tooltip">185,710</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ف</th>
+    <td class="b7">فا
+      <span class="tooltip">4,563,219</span>
+    </td>
+    <td class="b7">فإ
+      <span class="tooltip">2,192,653</span>
+    </td>
+    <td class="b7">فأ
+      <span class="tooltip">2,188,113</span>
+    </td>
+    <td class="b5">فآ
+      <span class="tooltip">26,773</span>
+    </td>
+    <td class="b6">فب
+      <span class="tooltip">337,631</span>
+    </td>
+    <td class="b7">فت
+      <span class="tooltip">2,152,934</span>
+    </td>
+    <td class="b5">فث
+      <span class="tooltip">56,064</span>
+    </td>
+    <td class="b6">فج
+      <span class="tooltip">538,817</span>
+    </td>
+    <td class="b6">فح
+      <span class="tooltip">520,938</span>
+    </td>
+    <td class="b6">فخ
+      <span class="tooltip">360,685</span>
+    </td>
+    <td class="b6">فد
+      <span class="tooltip">457,586</span>
+    </td>
+    <td class="b6">فذ
+      <span class="tooltip">345,732</span>
+    </td>
+    <td class="b7">فر
+      <span class="tooltip">4,309,444</span>
+    </td>
+    <td class="b6">فز
+      <span class="tooltip">149,883</span>
+    </td>
+    <td class="b7">فس
+      <span class="tooltip">1,897,113</span>
+    </td>
+    <td class="b6">فش
+      <span class="tooltip">154,652</span>
+    </td>
+    <td class="b6">فص
+      <span class="tooltip">811,525</span>
+    </td>
+    <td class="b7">فض
+      <span class="tooltip">1,219,559</span>
+    </td>
+    <td class="b6">فط
+      <span class="tooltip">259,629</span>
+    </td>
+    <td class="b6">فظ
+      <span class="tooltip">746,338</span>
+    </td>
+    <td class="b7">فع
+      <span class="tooltip">2,824,296</span>
+    </td>
+    <td class="b5">فغ
+      <span class="tooltip">99,015</span>
+    </td>
+    <td class="b6">فف
+      <span class="tooltip">294,526</span>
+    </td>
+    <td class="b7">فق
+      <span class="tooltip">5,187,701</span>
+    </td>
+    <td class="b6">فك
+      <span class="tooltip">920,003</span>
+    </td>
+    <td class="b7">فل
+      <span class="tooltip">3,254,448</span>
+    </td>
+    <td class="b6">فم
+      <span class="tooltip">883,265</span>
+    </td>
+    <td class="b6">فن
+      <span class="tooltip">774,620</span>
+    </td>
+    <td class="b7">فه
+      <span class="tooltip">1,796,354</span>
+    </td>
+    <td class="b7">فو
+      <span class="tooltip">1,498,239</span>
+    </td>
+    <td class="b8">في
+      <span class="tooltip">18,637,138</span>
+    </td>
+    <td class="b6">فى
+      <span class="tooltip">641,626</span>
+    </td>
+    <td class="b5">فؤ
+      <span class="tooltip">33,031</span>
+    </td>
+    <td class="b4">فء
+      <span class="tooltip">2,988</span>
+    </td>
+    <td class="b5">فئ
+      <span class="tooltip">42,396</span>
+    </td>
+    <td class="b7">فة
+      <span class="tooltip">1,426,352</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ق</th>
+    <td class="b8">قا
+      <span class="tooltip">22,892,398</span>
+    </td>
+    <td class="b0">قإ
+      <span class="tooltip">170</span>
+    </td>
+    <td class="b4">قأ
+      <span class="tooltip">8,488</span>
+    </td>
+    <td class="b0">قآ
+      <span class="tooltip">755</span>
+    </td>
+    <td class="b7">قب
+      <span class="tooltip">2,416,629</span>
+    </td>
+    <td class="b7">قت
+      <span class="tooltip">2,440,781</span>
+    </td>
+    <td class="b5">قث
+      <span class="tooltip">31,666</span>
+    </td>
+    <td class="b0">قج
+      <span class="tooltip">308</span>
+    </td>
+    <td class="b5">قح
+      <span class="tooltip">63,452</span>
+    </td>
+    <td class="b0">قخ
+      <span class="tooltip">455</span>
+    </td>
+    <td class="b7">قد
+      <span class="tooltip">5,093,234</span>
+    </td>
+    <td class="b5">قذ
+      <span class="tooltip">97,590</span>
+    </td>
+    <td class="b7">قر
+      <span class="tooltip">3,436,062</span>
+    </td>
+    <td class="b5">قز
+      <span class="tooltip">57,340</span>
+    </td>
+    <td class="b6">قس
+      <span class="tooltip">405,773</span>
+    </td>
+    <td class="b5">قش
+      <span class="tooltip">90,903</span>
+    </td>
+    <td class="b6">قص
+      <span class="tooltip">885,032</span>
+    </td>
+    <td class="b6">قض
+      <span class="tooltip">639,931</span>
+    </td>
+    <td class="b7">قط
+      <span class="tooltip">1,192,444</span>
+    </td>
+    <td class="b5">قظ
+      <span class="tooltip">43,198</span>
+    </td>
+    <td class="b6">قع
+      <span class="tooltip">710,248</span>
+    </td>
+    <td class="b0">قغ
+      <span class="tooltip">111</span>
+    </td>
+    <td class="b6">قف
+      <span class="tooltip">407,506</span>
+    </td>
+    <td class="b5">قق
+      <span class="tooltip">73,366</span>
+    </td>
+    <td class="b5">قك
+      <span class="tooltip">85,768</span>
+    </td>
+    <td class="b7">قل
+      <span class="tooltip">3,096,500</span>
+    </td>
+    <td class="b6">قم
+      <span class="tooltip">524,581</span>
+    </td>
+    <td class="b6">قن
+      <span class="tooltip">481,128</span>
+    </td>
+    <td class="b7">قه
+      <span class="tooltip">1,068,201</span>
+    </td>
+    <td class="b8">قو
+      <span class="tooltip">7,318,882</span>
+    </td>
+    <td class="b7">قي
+      <span class="tooltip">4,040,566</span>
+    </td>
+    <td class="b6">قى
+      <span class="tooltip">298,105</span>
+    </td>
+    <td class="b0">قؤ
+      <span class="tooltip">586</span>
+    </td>
+    <td class="b0">قء
+      <span class="tooltip">431</span>
+    </td>
+    <td class="b4">قئ
+      <span class="tooltip">4,780</span>
+    </td>
+    <td class="b7">قة
+      <span class="tooltip">1,084,309</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ك</th>
+    <td class="b8">كا
+      <span class="tooltip">7,742,924</span>
+    </td>
+    <td class="b4">كإ
+      <span class="tooltip">8,194</span>
+    </td>
+    <td class="b6">كأ
+      <span class="tooltip">450,426</span>
+    </td>
+    <td class="b4">كآ
+      <span class="tooltip">5,365</span>
+    </td>
+    <td class="b6">كب
+      <span class="tooltip">952,717</span>
+    </td>
+    <td class="b7">كت
+      <span class="tooltip">2,328,548</span>
+    </td>
+    <td class="b7">كث
+      <span class="tooltip">1,129,998</span>
+    </td>
+    <td class="b4">كج
+      <span class="tooltip">15,157</span>
+    </td>
+    <td class="b6">كح
+      <span class="tooltip">150,196</span>
+    </td>
+    <td class="b4">كخ
+      <span class="tooltip">7,912</span>
+    </td>
+    <td class="b5">كد
+      <span class="tooltip">137,337</span>
+    </td>
+    <td class="b7">كذ
+      <span class="tooltip">1,293,532</span>
+    </td>
+    <td class="b7">كر
+      <span class="tooltip">5,279,415</span>
+    </td>
+    <td class="b5">كز
+      <span class="tooltip">24,111</span>
+    </td>
+    <td class="b6">كس
+      <span class="tooltip">520,338</span>
+    </td>
+    <td class="b5">كش
+      <span class="tooltip">127,554</span>
+    </td>
+    <td class="b4">كص
+      <span class="tooltip">14,199</span>
+    </td>
+    <td class="b4">كض
+      <span class="tooltip">15,092</span>
+    </td>
+    <td class="b4">كط
+      <span class="tooltip">5,189</span>
+    </td>
+    <td class="b4">كظ
+      <span class="tooltip">14,025</span>
+    </td>
+    <td class="b6">كع
+      <span class="tooltip">483,650</span>
+    </td>
+    <td class="b4">كغ
+      <span class="tooltip">7,556</span>
+    </td>
+    <td class="b6">كف
+      <span class="tooltip">832,644</span>
+    </td>
+    <td class="b5">كق
+      <span class="tooltip">109,629</span>
+    </td>
+    <td class="b5">كك
+      <span class="tooltip">44,642</span>
+    </td>
+    <td class="b7">كل
+      <span class="tooltip">3,556,428</span>
+    </td>
+    <td class="b7">كم
+      <span class="tooltip">4,024,933</span>
+    </td>
+    <td class="b7">كن
+      <span class="tooltip">2,486,995</span>
+    </td>
+    <td class="b6">كه
+      <span class="tooltip">490,926</span>
+    </td>
+    <td class="b7">كو
+      <span class="tooltip">2,511,217</span>
+    </td>
+    <td class="b7">كي
+      <span class="tooltip">1,588,824</span>
+    </td>
+    <td class="b6">كى
+      <span class="tooltip">148,108</span>
+    </td>
+    <td class="b4">كؤ
+      <span class="tooltip">3,763</span>
+    </td>
+    <td class="b0">كء
+      <span class="tooltip">213</span>
+    </td>
+    <td class="b4">كئ
+      <span class="tooltip">13,112</span>
+    </td>
+    <td class="b6">كة
+      <span class="tooltip">612,631</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ل</th>
+    <td class="b8">لا
+      <span class="tooltip">21,579,981</span>
+    </td>
+    <td class="b7">لإ
+      <span class="tooltip">1,737,601</span>
+    </td>
+    <td class="b8">لأ
+      <span class="tooltip">8,988,892</span>
+    </td>
+    <td class="b7">لآ
+      <span class="tooltip">1,057,840</span>
+    </td>
+    <td class="b7">لب
+      <span class="tooltip">6,268,244</span>
+    </td>
+    <td class="b7">لت
+      <span class="tooltip">6,817,982</span>
+    </td>
+    <td class="b7">لث
+      <span class="tooltip">1,937,805</span>
+    </td>
+    <td class="b7">لج
+      <span class="tooltip">3,230,752</span>
+    </td>
+    <td class="b8">لح
+      <span class="tooltip">9,349,676</span>
+    </td>
+    <td class="b7">لخ
+      <span class="tooltip">2,822,829</span>
+    </td>
+    <td class="b7">لد
+      <span class="tooltip">4,017,362</span>
+    </td>
+    <td class="b7">لذ
+      <span class="tooltip">2,623,334</span>
+    </td>
+    <td class="b7">لر
+      <span class="tooltip">4,793,634</span>
+    </td>
+    <td class="b7">لز
+      <span class="tooltip">1,789,467</span>
+    </td>
+    <td class="b7">لس
+      <span class="tooltip">5,046,583</span>
+    </td>
+    <td class="b7">لش
+      <span class="tooltip">3,077,235</span>
+    </td>
+    <td class="b7">لص
+      <span class="tooltip">2,966,756</span>
+    </td>
+    <td class="b6">لض
+      <span class="tooltip">628,660</span>
+    </td>
+    <td class="b7">لط
+      <span class="tooltip">1,793,096</span>
+    </td>
+    <td class="b6">لظ
+      <span class="tooltip">422,189</span>
+    </td>
+    <td class="b7">لع
+      <span class="tooltip">6,496,579</span>
+    </td>
+    <td class="b7">لغ
+      <span class="tooltip">1,877,447</span>
+    </td>
+    <td class="b7">لف
+      <span class="tooltip">4,829,750</span>
+    </td>
+    <td class="b7">لق
+      <span class="tooltip">7,038,491</span>
+    </td>
+    <td class="b8">لك
+      <span class="tooltip">10,680,968</span>
+    </td>
+    <td class="b8">لل
+      <span class="tooltip">17,839,122</span>
+    </td>
+    <td class="b8">لم
+      <span class="tooltip">25,748,559</span>
+    </td>
+    <td class="b7">لن
+      <span class="tooltip">7,120,001</span>
+    </td>
+    <td class="b8">له
+      <span class="tooltip">25,692,630</span>
+    </td>
+    <td class="b7">لو
+      <span class="tooltip">6,992,970</span>
+    </td>
+    <td class="b8">لي
+      <span class="tooltip">19,584,172</span>
+    </td>
+    <td class="b8">لى
+      <span class="tooltip">15,633,378</span>
+    </td>
+    <td class="b5">لؤ
+      <span class="tooltip">94,902</span>
+    </td>
+    <td class="b4">لء
+      <span class="tooltip">9,992</span>
+    </td>
+    <td class="b6">لئ
+      <span class="tooltip">181,542</span>
+    </td>
+    <td class="b7">لة
+      <span class="tooltip">2,429,449</span>
+    </td>
+  </tr>
+  <tr>
+    <th>م</th>
+    <td class="b8">ما
+      <span class="tooltip">24,009,508</span>
+    </td>
+    <td class="b3">مإ
+      <span class="tooltip">1,033</span>
+    </td>
+    <td class="b6">مأ
+      <span class="tooltip">236,109</span>
+    </td>
+    <td class="b5">مآ
+      <span class="tooltip">28,665</span>
+    </td>
+    <td class="b6">مب
+      <span class="tooltip">541,942</span>
+    </td>
+    <td class="b7">مت
+      <span class="tooltip">2,480,324</span>
+    </td>
+    <td class="b7">مث
+      <span class="tooltip">1,361,143</span>
+    </td>
+    <td class="b6">مج
+      <span class="tooltip">1,000,222</span>
+    </td>
+    <td class="b7">مح
+      <span class="tooltip">6,629,828</span>
+    </td>
+    <td class="b6">مخ
+      <span class="tooltip">818,871</span>
+    </td>
+    <td class="b8">مد
+      <span class="tooltip">9,302,482</span>
+    </td>
+    <td class="b6">مذ
+      <span class="tooltip">419,441</span>
+    </td>
+    <td class="b8">مر
+      <span class="tooltip">8,566,971</span>
+    </td>
+    <td class="b6">مز
+      <span class="tooltip">594,120</span>
+    </td>
+    <td class="b7">مس
+      <span class="tooltip">4,252,678</span>
+    </td>
+    <td class="b7">مش
+      <span class="tooltip">1,284,926</span>
+    </td>
+    <td class="b6">مص
+      <span class="tooltip">926,715</span>
+    </td>
+    <td class="b6">مض
+      <span class="tooltip">632,329</span>
+    </td>
+    <td class="b6">مط
+      <span class="tooltip">618,917</span>
+    </td>
+    <td class="b5">مظ
+      <span class="tooltip">131,690</span>
+    </td>
+    <td class="b8">مع
+      <span class="tooltip">7,840,665</span>
+    </td>
+    <td class="b6">مغ
+      <span class="tooltip">497,125</span>
+    </td>
+    <td class="b6">مف
+      <span class="tooltip">439,841</span>
+    </td>
+    <td class="b7">مق
+      <span class="tooltip">1,307,240</span>
+    </td>
+    <td class="b7">مك
+      <span class="tooltip">1,523,755</span>
+    </td>
+    <td class="b7">مل
+      <span class="tooltip">3,779,762</span>
+    </td>
+    <td class="b6">مم
+      <span class="tooltip">893,818</span>
+    </td>
+    <td class="b8">من
+      <span class="tooltip">22,121,319</span>
+    </td>
+    <td class="b7">مه
+      <span class="tooltip">2,882,807</span>
+    </td>
+    <td class="b7">مو
+      <span class="tooltip">4,403,520</span>
+    </td>
+    <td class="b7">مي
+      <span class="tooltip">4,838,197</span>
+    </td>
+    <td class="b6">مى
+      <span class="tooltip">364,277</span>
+    </td>
+    <td class="b6">مؤ
+      <span class="tooltip">802,946</span>
+    </td>
+    <td class="b3">مء
+      <span class="tooltip">1,228</span>
+    </td>
+    <td class="b6">مئ
+      <span class="tooltip">172,183</span>
+    </td>
+    <td class="b7">مة
+      <span class="tooltip">3,133,191</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ن</th>
+    <td class="b8">نا
+      <span class="tooltip">22,474,701</span>
+    </td>
+    <td class="b0">نإ
+      <span class="tooltip">808</span>
+    </td>
+    <td class="b5">نأ
+      <span class="tooltip">69,042</span>
+    </td>
+    <td class="b4">نآ
+      <span class="tooltip">6,900</span>
+    </td>
+    <td class="b7">نب
+      <span class="tooltip">3,702,966</span>
+    </td>
+    <td class="b7">نت
+      <span class="tooltip">3,240,918</span>
+    </td>
+    <td class="b6">نث
+      <span class="tooltip">169,463</span>
+    </td>
+    <td class="b6">نج
+      <span class="tooltip">763,285</span>
+    </td>
+    <td class="b6">نح
+      <span class="tooltip">861,435</span>
+    </td>
+    <td class="b6">نخ
+      <span class="tooltip">225,218</span>
+    </td>
+    <td class="b7">ند
+      <span class="tooltip">2,314,734</span>
+    </td>
+    <td class="b6">نذ
+      <span class="tooltip">271,814</span>
+    </td>
+    <td class="b5">نر
+      <span class="tooltip">116,228</span>
+    </td>
+    <td class="b7">نز
+      <span class="tooltip">1,139,617</span>
+    </td>
+    <td class="b7">نس
+      <span class="tooltip">2,238,766</span>
+    </td>
+    <td class="b6">نش
+      <span class="tooltip">467,201</span>
+    </td>
+    <td class="b7">نص
+      <span class="tooltip">1,971,275</span>
+    </td>
+    <td class="b6">نض
+      <span class="tooltip">195,476</span>
+    </td>
+    <td class="b6">نط
+      <span class="tooltip">304,734</span>
+    </td>
+    <td class="b6">نظ
+      <span class="tooltip">733,147</span>
+    </td>
+    <td class="b7">نع
+      <span class="tooltip">1,764,103</span>
+    </td>
+    <td class="b5">نغ
+      <span class="tooltip">30,995</span>
+    </td>
+    <td class="b7">نف
+      <span class="tooltip">2,217,519</span>
+    </td>
+    <td class="b7">نق
+      <span class="tooltip">1,129,008</span>
+    </td>
+    <td class="b7">نك
+      <span class="tooltip">1,675,667</span>
+    </td>
+    <td class="b5">نل
+      <span class="tooltip">30,211</span>
+    </td>
+    <td class="b7">نم
+      <span class="tooltip">1,323,008</span>
+    </td>
+    <td class="b6">نن
+      <span class="tooltip">341,836</span>
+    </td>
+    <td class="b8">نه
+      <span class="tooltip">11,503,374</span>
+    </td>
+    <td class="b7">نو
+      <span class="tooltip">2,086,665</span>
+    </td>
+    <td class="b8">ني
+      <span class="tooltip">9,308,451</span>
+    </td>
+    <td class="b7">نى
+      <span class="tooltip">1,484,530</span>
+    </td>
+    <td class="b5">نؤ
+      <span class="tooltip">19,790</span>
+    </td>
+    <td class="b0">نء
+      <span class="tooltip">990</span>
+    </td>
+    <td class="b5">نئ
+      <span class="tooltip">84,457</span>
+    </td>
+    <td class="b7">نة
+      <span class="tooltip">2,810,138</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ه</th>
+    <td class="b8">ها
+      <span class="tooltip">12,698,577</span>
+    </td>
+    <td class="b0">هإ
+      <span class="tooltip">250</span>
+    </td>
+    <td class="b4">هأ
+      <span class="tooltip">2,961</span>
+    </td>
+    <td class="b3">هآ
+      <span class="tooltip">1,783</span>
+    </td>
+    <td class="b7">هب
+      <span class="tooltip">1,250,849</span>
+    </td>
+    <td class="b6">هت
+      <span class="tooltip">215,025</span>
+    </td>
+    <td class="b4">هث
+      <span class="tooltip">7,138</span>
+    </td>
+    <td class="b6">هج
+      <span class="tooltip">220,655</span>
+    </td>
+    <td class="b0">هح
+      <span class="tooltip">410</span>
+    </td>
+    <td class="b0">هخ
+      <span class="tooltip">282</span>
+    </td>
+    <td class="b7">هد
+      <span class="tooltip">1,682,778</span>
+    </td>
+    <td class="b7">هذ
+      <span class="tooltip">4,075,202</span>
+    </td>
+    <td class="b7">هر
+      <span class="tooltip">2,856,159</span>
+    </td>
+    <td class="b6">هز
+      <span class="tooltip">193,077</span>
+    </td>
+    <td class="b4">هس
+      <span class="tooltip">16,731</span>
+    </td>
+    <td class="b6">هش
+      <span class="tooltip">424,857</span>
+    </td>
+    <td class="b4">هص
+      <span class="tooltip">6,134</span>
+    </td>
+    <td class="b5">هض
+      <span class="tooltip">60,089</span>
+    </td>
+    <td class="b5">هط
+      <span class="tooltip">31,159</span>
+    </td>
+    <td class="b0">هظ
+      <span class="tooltip">577</span>
+    </td>
+    <td class="b0">هع
+      <span class="tooltip">937</span>
+    </td>
+    <td class="b0">هغ
+      <span class="tooltip">70</span>
+    </td>
+    <td class="b5">هف
+      <span class="tooltip">47,699</span>
+    </td>
+    <td class="b5">هق
+      <span class="tooltip">99,187</span>
+    </td>
+    <td class="b6">هك
+      <span class="tooltip">182,607</span>
+    </td>
+    <td class="b7">هل
+      <span class="tooltip">2,711,437</span>
+    </td>
+    <td class="b8">هم
+      <span class="tooltip">10,236,330</span>
+    </td>
+    <td class="b7">هن
+      <span class="tooltip">1,146,846</span>
+    </td>
+    <td class="b6">هه
+      <span class="tooltip">311,402</span>
+    </td>
+    <td class="b7">هو
+      <span class="tooltip">4,306,736</span>
+    </td>
+    <td class="b7">هي
+      <span class="tooltip">2,883,978</span>
+    </td>
+    <td class="b6">هى
+      <span class="tooltip">245,209</span>
+    </td>
+    <td class="b6">هؤ
+      <span class="tooltip">168,319</span>
+    </td>
+    <td class="b0">هء
+      <span class="tooltip">495</span>
+    </td>
+    <td class="b3">هئ
+      <span class="tooltip">1,068</span>
+    </td>
+    <td class="b6">هة
+      <span class="tooltip">205,800</span>
+    </td>
+  </tr>
+  <tr>
+    <th>و</th>
+    <td class="b8">وا
+      <span class="tooltip">22,034,182</span>
+    </td>
+    <td class="b7">وإ
+      <span class="tooltip">2,344,925</span>
+    </td>
+    <td class="b7">وأ
+      <span class="tooltip">5,563,448</span>
+    </td>
+    <td class="b6">وآ
+      <span class="tooltip">351,942</span>
+    </td>
+    <td class="b7">وب
+      <span class="tooltip">3,199,575</span>
+    </td>
+    <td class="b7">وت
+      <span class="tooltip">2,571,900</span>
+    </td>
+    <td class="b6">وث
+      <span class="tooltip">603,223</span>
+    </td>
+    <td class="b7">وج
+      <span class="tooltip">3,532,457</span>
+    </td>
+    <td class="b7">وح
+      <span class="tooltip">1,739,115</span>
+    </td>
+    <td class="b6">وخ
+      <span class="tooltip">743,918</span>
+    </td>
+    <td class="b7">ود
+      <span class="tooltip">2,705,268</span>
+    </td>
+    <td class="b6">وذ
+      <span class="tooltip">833,924</span>
+    </td>
+    <td class="b7">ور
+      <span class="tooltip">4,708,180</span>
+    </td>
+    <td class="b7">وز
+      <span class="tooltip">1,194,585</span>
+    </td>
+    <td class="b7">وس
+      <span class="tooltip">6,155,597</span>
+    </td>
+    <td class="b6">وش
+      <span class="tooltip">539,110</span>
+    </td>
+    <td class="b7">وص
+      <span class="tooltip">1,263,040</span>
+    </td>
+    <td class="b7">وض
+      <span class="tooltip">1,153,819</span>
+    </td>
+    <td class="b6">وط
+      <span class="tooltip">581,595</span>
+    </td>
+    <td class="b5">وظ
+      <span class="tooltip">113,360</span>
+    </td>
+    <td class="b7">وع
+      <span class="tooltip">3,070,350</span>
+    </td>
+    <td class="b6">وغ
+      <span class="tooltip">593,145</span>
+    </td>
+    <td class="b7">وف
+      <span class="tooltip">3,326,352</span>
+    </td>
+    <td class="b7">وق
+      <span class="tooltip">5,913,585</span>
+    </td>
+    <td class="b7">وك
+      <span class="tooltip">3,218,653</span>
+    </td>
+    <td class="b8">ول
+      <span class="tooltip">17,542,460</span>
+    </td>
+    <td class="b7">وم
+      <span class="tooltip">6,989,233</span>
+    </td>
+    <td class="b8">ون
+      <span class="tooltip">7,555,907</span>
+    </td>
+    <td class="b7">وه
+      <span class="tooltip">4,981,348</span>
+    </td>
+    <td class="b6">وو
+      <span class="tooltip">563,030</span>
+    </td>
+    <td class="b7">وي
+      <span class="tooltip">4,968,316</span>
+    </td>
+    <td class="b7">وى
+      <span class="tooltip">1,460,592</span>
+    </td>
+    <td class="b4">وؤ
+      <span class="tooltip">5,493</span>
+    </td>
+    <td class="b6">وء
+      <span class="tooltip">242,585</span>
+    </td>
+    <td class="b4">وئ
+      <span class="tooltip">16,098</span>
+    </td>
+    <td class="b6">وة
+      <span class="tooltip">713,179</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ي</th>
+    <td class="b8">يا
+      <span class="tooltip">7,396,909</span>
+    </td>
+    <td class="b0">يإ
+      <span class="tooltip">380</span>
+    </td>
+    <td class="b6">يأ
+      <span class="tooltip">646,853</span>
+    </td>
+    <td class="b3">يآ
+      <span class="tooltip">2,625</span>
+    </td>
+    <td class="b7">يب
+      <span class="tooltip">3,316,821</span>
+    </td>
+    <td class="b7">يت
+      <span class="tooltip">3,776,116</span>
+    </td>
+    <td class="b7">يث
+      <span class="tooltip">2,285,903</span>
+    </td>
+    <td class="b7">يج
+      <span class="tooltip">1,642,606</span>
+    </td>
+    <td class="b7">يح
+      <span class="tooltip">3,187,943</span>
+    </td>
+    <td class="b7">يخ
+      <span class="tooltip">1,280,398</span>
+    </td>
+    <td class="b8">يد
+      <span class="tooltip">7,356,796</span>
+    </td>
+    <td class="b6">يذ
+      <span class="tooltip">347,605</span>
+    </td>
+    <td class="b8">ير
+      <span class="tooltip">9,349,311</span>
+    </td>
+    <td class="b7">يز
+      <span class="tooltip">1,506,194</span>
+    </td>
+    <td class="b7">يس
+      <span class="tooltip">3,922,244</span>
+    </td>
+    <td class="b6">يش
+      <span class="tooltip">925,967</span>
+    </td>
+    <td class="b7">يص
+      <span class="tooltip">1,011,062</span>
+    </td>
+    <td class="b7">يض
+      <span class="tooltip">1,203,986</span>
+    </td>
+    <td class="b6">يط
+      <span class="tooltip">628,545</span>
+    </td>
+    <td class="b6">يظ
+      <span class="tooltip">194,456</span>
+    </td>
+    <td class="b7">يع
+      <span class="tooltip">4,429,574</span>
+    </td>
+    <td class="b6">يغ
+      <span class="tooltip">350,469</span>
+    </td>
+    <td class="b7">يف
+      <span class="tooltip">2,205,247</span>
+    </td>
+    <td class="b7">يق
+      <span class="tooltip">5,093,400</span>
+    </td>
+    <td class="b7">يك
+      <span class="tooltip">3,164,931</span>
+    </td>
+    <td class="b7">يل
+      <span class="tooltip">5,326,713</span>
+    </td>
+    <td class="b7">يم
+      <span class="tooltip">6,098,832</span>
+    </td>
+    <td class="b8">ين
+      <span class="tooltip">13,869,011</span>
+    </td>
+    <td class="b8">يه
+      <span class="tooltip">13,134,796</span>
+    </td>
+    <td class="b7">يو
+      <span class="tooltip">3,125,905</span>
+    </td>
+    <td class="b6">يي
+      <span class="tooltip">525,531</span>
+    </td>
+    <td class="b7">يى
+      <span class="tooltip">1,021,230</span>
+    </td>
+    <td class="b6">يؤ
+      <span class="tooltip">357,539</span>
+    </td>
+    <td class="b6">يء
+      <span class="tooltip">799,886</span>
+    </td>
+    <td class="b6">يئ
+      <span class="tooltip">578,640</span>
+    </td>
+    <td class="b7">ية
+      <span class="tooltip">4,454,864</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ى</th>
+    <td class="b0">ىا
+      <span class="tooltip">906</span>
+    </td>
+    <td class="b0">ىإ
+      <span class="tooltip">464</span>
+    </td>
+    <td class="b3">ىأ
+      <span class="tooltip">1,099</span>
+    </td>
+    <td class="b0">ىآ
+      <span class="tooltip">85</span>
+    </td>
+    <td class="b0">ىب
+      <span class="tooltip">195</span>
+    </td>
+    <td class="b0">ىت
+      <span class="tooltip">94</span>
+    </td>
+    <td class="b0">ىث
+      <span class="tooltip">19</span>
+    </td>
+    <td class="b0">ىج
+      <span class="tooltip">32</span>
+    </td>
+    <td class="b0">ىح
+      <span class="tooltip">51</span>
+    </td>
+    <td class="b0">ىخ
+      <span class="tooltip">87</span>
+    </td>
+    <td class="b0">ىد
+      <span class="tooltip">63</span>
+    </td>
+    <td class="b0">ىذ
+      <span class="tooltip">30</span>
+    </td>
+    <td class="b0">ىر
+      <span class="tooltip">83</span>
+    </td>
+    <td class="b0">ىز
+      <span class="tooltip">28</span>
+    </td>
+    <td class="b0">ىس
+      <span class="tooltip">48</span>
+    </td>
+    <td class="b0">ىش
+      <span class="tooltip">100</span>
+    </td>
+    <td class="b0">ىص
+      <span class="tooltip">23</span>
+    </td>
+    <td class="b0">ىض
+      <span class="tooltip">13</span>
+    </td>
+    <td class="b0">ىط
+      <span class="tooltip">16</span>
+    </td>
+    <td class="b0">ىظ
+      <span class="tooltip">6</span>
+    </td>
+    <td class="b0">ىع
+      <span class="tooltip">226</span>
+    </td>
+    <td class="b0">ىغ
+      <span class="tooltip">44</span>
+    </td>
+    <td class="b0">ىف
+      <span class="tooltip">114</span>
+    </td>
+    <td class="b0">ىق
+      <span class="tooltip">56</span>
+    </td>
+    <td class="b0">ىك
+      <span class="tooltip">174</span>
+    </td>
+    <td class="b0">ىل
+      <span class="tooltip">170</span>
+    </td>
+    <td class="b0">ىم
+      <span class="tooltip">252</span>
+    </td>
+    <td class="b0">ىن
+      <span class="tooltip">143</span>
+    </td>
+    <td class="b0">ىه
+      <span class="tooltip">110</span>
+    </td>
+    <td class="b0">ىو
+      <span class="tooltip">215</span>
+    </td>
+    <td class="b0">ىي
+      <span class="tooltip">83</span>
+    </td>
+    <td class="b0">ىى
+      <span class="tooltip">80</span>
+    </td>
+    <td class="b0">ىؤ
+      <span class="tooltip">4</span>
+    </td>
+    <td class="b5">ىء
+      <span class="tooltip">123,314</span>
+    </td>
+    <td class="b0">ىئ
+      <span class="tooltip">16</span>
+    </td>
+    <td class="b0">ىة
+      <span class="tooltip">48</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ؤ</th>
+    <td class="b5">ؤا
+      <span class="tooltip">136,924</span>
+    </td>
+    <td class="b0">ؤإ
+      <span class="tooltip">12</span>
+    </td>
+    <td class="b0">ؤأ
+      <span class="tooltip">115</span>
+    </td>
+    <td class="b0">ؤآ
+      <span class="tooltip">89</span>
+    </td>
+    <td class="b5">ؤب
+      <span class="tooltip">23,477</span>
+    </td>
+    <td class="b5">ؤت
+      <span class="tooltip">67,890</span>
+    </td>
+    <td class="b5">ؤث
+      <span class="tooltip">32,538</span>
+    </td>
+    <td class="b4">ؤج
+      <span class="tooltip">17,112</span>
+    </td>
+    <td class="b0">ؤح
+      <span class="tooltip">62</span>
+    </td>
+    <td class="b5">ؤخ
+      <span class="tooltip">84,922</span>
+    </td>
+    <td class="b5">ؤد
+      <span class="tooltip">104,573</span>
+    </td>
+    <td class="b5">ؤذ
+      <span class="tooltip">83,397</span>
+    </td>
+    <td class="b4">ؤر
+      <span class="tooltip">13,824</span>
+    </td>
+    <td class="b3">ؤز
+      <span class="tooltip">1,611</span>
+    </td>
+    <td class="b5">ؤس
+      <span class="tooltip">33,613</span>
+    </td>
+    <td class="b0">ؤش
+      <span class="tooltip">537</span>
+    </td>
+    <td class="b3">ؤص
+      <span class="tooltip">1,515</span>
+    </td>
+    <td class="b0">ؤض
+      <span class="tooltip">118</span>
+    </td>
+    <td class="b0">ؤط
+      <span class="tooltip">191</span>
+    </td>
+    <td class="b0">ؤظ
+      <span class="tooltip">5</span>
+    </td>
+    <td class="b0">ؤع
+      <span class="tooltip">44</span>
+    </td>
+    <td class="b0">ؤغ
+      <span class="tooltip">9</span>
+    </td>
+    <td class="b4">ؤف
+      <span class="tooltip">3,379</span>
+    </td>
+    <td class="b4">ؤق
+      <span class="tooltip">3,838</span>
+    </td>
+    <td class="b5">ؤك
+      <span class="tooltip">59,522</span>
+    </td>
+    <td class="b6">ؤل
+      <span class="tooltip">253,483</span>
+    </td>
+    <td class="b6">ؤم
+      <span class="tooltip">692,385</span>
+    </td>
+    <td class="b5">ؤن
+      <span class="tooltip">59,501</span>
+    </td>
+    <td class="b6">ؤه
+      <span class="tooltip">178,535</span>
+    </td>
+    <td class="b5">ؤو
+      <span class="tooltip">103,948</span>
+    </td>
+    <td class="b5">ؤي
+      <span class="tooltip">138,618</span>
+    </td>
+    <td class="b3">ؤى
+      <span class="tooltip">2,003</span>
+    </td>
+    <td class="b0">ؤؤ
+      <span class="tooltip">99</span>
+    </td>
+    <td class="b0">ؤء
+      <span class="tooltip">122</span>
+    </td>
+    <td class="b0">ؤئ
+      <span class="tooltip">73</span>
+    </td>
+    <td class="b4">ؤة
+      <span class="tooltip">5,897</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ء</th>
+    <td class="b5">ءا
+      <span class="tooltip">82,408</span>
+    </td>
+    <td class="b0">ءإ
+      <span class="tooltip">123</span>
+    </td>
+    <td class="b0">ءأ
+      <span class="tooltip">688</span>
+    </td>
+    <td class="b0">ءآ
+      <span class="tooltip">677</span>
+    </td>
+    <td class="b3">ءب
+      <span class="tooltip">1,331</span>
+    </td>
+    <td class="b6">ءت
+      <span class="tooltip">146,176</span>
+    </td>
+    <td class="b0">ءث
+      <span class="tooltip">79</span>
+    </td>
+    <td class="b0">ءج
+      <span class="tooltip">26</span>
+    </td>
+    <td class="b0">ءح
+      <span class="tooltip">83</span>
+    </td>
+    <td class="b0">ءخ
+      <span class="tooltip">12</span>
+    </td>
+    <td class="b0">ءد
+      <span class="tooltip">364</span>
+    </td>
+    <td class="b0">ءذ
+      <span class="tooltip">305</span>
+    </td>
+    <td class="b0">ءر
+      <span class="tooltip">344</span>
+    </td>
+    <td class="b0">ءز
+      <span class="tooltip">31</span>
+    </td>
+    <td class="b0">ءس
+      <span class="tooltip">205</span>
+    </td>
+    <td class="b0">ءش
+      <span class="tooltip">56</span>
+    </td>
+    <td class="b0">ءص
+      <span class="tooltip">45</span>
+    </td>
+    <td class="b0">ءض
+      <span class="tooltip">23</span>
+    </td>
+    <td class="b0">ءط
+      <span class="tooltip">18</span>
+    </td>
+    <td class="b0">ءظ
+      <span class="tooltip">3</span>
+    </td>
+    <td class="b0">ءع
+      <span class="tooltip">186</span>
+    </td>
+    <td class="b0">ءغ
+      <span class="tooltip">13</span>
+    </td>
+    <td class="b0">ءف
+      <span class="tooltip">244</span>
+    </td>
+    <td class="b0">ءق
+      <span class="tooltip">113</span>
+    </td>
+    <td class="b5">ءك
+      <span class="tooltip">51,287</span>
+    </td>
+    <td class="b4">ءل
+      <span class="tooltip">9,412</span>
+    </td>
+    <td class="b4">ءم
+      <span class="tooltip">4,626</span>
+    </td>
+    <td class="b5">ءن
+      <span class="tooltip">41,590</span>
+    </td>
+    <td class="b6">ءه
+      <span class="tooltip">169,141</span>
+    </td>
+    <td class="b5">ءو
+      <span class="tooltip">59,167</span>
+    </td>
+    <td class="b4">ءي
+      <span class="tooltip">11,159</span>
+    </td>
+    <td class="b4">ءى
+      <span class="tooltip">3,630</span>
+    </td>
+    <td class="b0">ءؤ
+      <span class="tooltip">87</span>
+    </td>
+    <td class="b0">ءء
+      <span class="tooltip">72</span>
+    </td>
+    <td class="b0">ءئ
+      <span class="tooltip">35</span>
+    </td>
+    <td class="b6">ءة
+      <span class="tooltip">246,815</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ئ</th>
+    <td class="b6">ئا
+      <span class="tooltip">450,138</span>
+    </td>
+    <td class="b0">ئإ
+      <span class="tooltip">8</span>
+    </td>
+    <td class="b0">ئأ
+      <span class="tooltip">177</span>
+    </td>
+    <td class="b0">ئآ
+      <span class="tooltip">310</span>
+    </td>
+    <td class="b6">ئب
+      <span class="tooltip">244,380</span>
+    </td>
+    <td class="b6">ئت
+      <span class="tooltip">391,620</span>
+    </td>
+    <td class="b4">ئث
+      <span class="tooltip">4,263</span>
+    </td>
+    <td class="b5">ئج
+      <span class="tooltip">25,295</span>
+    </td>
+    <td class="b5">ئح
+      <span class="tooltip">59,774</span>
+    </td>
+    <td class="b3">ئخ
+      <span class="tooltip">1,935</span>
+    </td>
+    <td class="b6">ئد
+      <span class="tooltip">257,190</span>
+    </td>
+    <td class="b6">ئذ
+      <span class="tooltip">170,417</span>
+    </td>
+    <td class="b6">ئر
+      <span class="tooltip">334,085</span>
+    </td>
+    <td class="b5">ئز
+      <span class="tooltip">121,459</span>
+    </td>
+    <td class="b5">ئس
+      <span class="tooltip">45,561</span>
+    </td>
+    <td class="b6">ئش
+      <span class="tooltip">289,176</span>
+    </td>
+    <td class="b4">ئص
+      <span class="tooltip">12,503</span>
+    </td>
+    <td class="b5">ئض
+      <span class="tooltip">58,566</span>
+    </td>
+    <td class="b5">ئط
+      <span class="tooltip">68,360</span>
+    </td>
+    <td class="b3">ئظ
+      <span class="tooltip">1,311</span>
+    </td>
+    <td class="b6">ئع
+      <span class="tooltip">147,804</span>
+    </td>
+    <td class="b4">ئغ
+      <span class="tooltip">17,789</span>
+    </td>
+    <td class="b6">ئف
+      <span class="tooltip">148,146</span>
+    </td>
+    <td class="b5">ئق
+      <span class="tooltip">67,951</span>
+    </td>
+    <td class="b6">ئك
+      <span class="tooltip">261,807</span>
+    </td>
+    <td class="b6">ئل
+      <span class="tooltip">643,508</span>
+    </td>
+    <td class="b6">ئم
+      <span class="tooltip">388,609</span>
+    </td>
+    <td class="b6">ئن
+      <span class="tooltip">245,225</span>
+    </td>
+    <td class="b6">ئه
+      <span class="tooltip">369,216</span>
+    </td>
+    <td class="b5">ئو
+      <span class="tooltip">40,097</span>
+    </td>
+    <td class="b6">ئي
+      <span class="tooltip">465,475</span>
+    </td>
+    <td class="b4">ئى
+      <span class="tooltip">10,005</span>
+    </td>
+    <td class="b0">ئؤ
+      <span class="tooltip">18</span>
+    </td>
+    <td class="b0">ئء
+      <span class="tooltip">40</span>
+    </td>
+    <td class="b0">ئئ
+      <span class="tooltip">167</span>
+    </td>
+    <td class="b6">ئة
+      <span class="tooltip">695,398</span>
+    </td>
+  </tr>
+  <tr>
+    <th>ة</th>
+    <td class="b0">ةا
+      <span class="tooltip">433</span>
+    </td>
+    <td class="b0">ةإ
+      <span class="tooltip">86</span>
+    </td>
+    <td class="b0">ةأ
+      <span class="tooltip">150</span>
+    </td>
+    <td class="b0">ةآ
+      <span class="tooltip">14</span>
+    </td>
+    <td class="b0">ةب
+      <span class="tooltip">198</span>
+    </td>
+    <td class="b0">ةت
+      <span class="tooltip">128</span>
+    </td>
+    <td class="b0">ةث
+      <span class="tooltip">47</span>
+    </td>
+    <td class="b0">ةج
+      <span class="tooltip">34</span>
+    </td>
+    <td class="b0">ةح
+      <span class="tooltip">51</span>
+    </td>
+    <td class="b0">ةخ
+      <span class="tooltip">23</span>
+    </td>
+    <td class="b0">ةد
+      <span class="tooltip">31</span>
+    </td>
+    <td class="b0">ةذ
+      <span class="tooltip">15</span>
+    </td>
+    <td class="b0">ةر
+      <span class="tooltip">58</span>
+    </td>
+    <td class="b0">ةز
+      <span class="tooltip">38</span>
+    </td>
+    <td class="b0">ةس
+      <span class="tooltip">62</span>
+    </td>
+    <td class="b0">ةش
+      <span class="tooltip">16</span>
+    </td>
+    <td class="b0">ةص
+      <span class="tooltip">20</span>
+    </td>
+    <td class="b0">ةض
+      <span class="tooltip">18</span>
+    </td>
+    <td class="b0">ةط
+      <span class="tooltip">9</span>
+    </td>
+    <td class="b0">ةظ
+      <span class="tooltip">4</span>
+    </td>
+    <td class="b0">ةع
+      <span class="tooltip">129</span>
+    </td>
+    <td class="b0">ةغ
+      <span class="tooltip">18</span>
+    </td>
+    <td class="b0">ةف
+      <span class="tooltip">215</span>
+    </td>
+    <td class="b0">ةق
+      <span class="tooltip">105</span>
+    </td>
+    <td class="b0">ةك
+      <span class="tooltip">90</span>
+    </td>
+    <td class="b0">ةل
+      <span class="tooltip">187</span>
+    </td>
+    <td class="b0">ةم
+      <span class="tooltip">224</span>
+    </td>
+    <td class="b0">ةن
+      <span class="tooltip">273</span>
+    </td>
+    <td class="b0">ةه
+      <span class="tooltip">58</span>
+    </td>
+    <td class="b0">ةو
+      <span class="tooltip">512</span>
+    </td>
+    <td class="b0">ةي
+      <span class="tooltip">87</span>
+    </td>
+    <td class="b0">ةى
+      <span class="tooltip">46</span>
+    </td>
+    <td class="b0">ةؤ
+      <span class="tooltip">0</span>
+    </td>
+    <td class="b0">ةء
+      <span class="tooltip">25</span>
+    </td>
+    <td class="b0">ةئ
+      <span class="tooltip">2</span>
+    </td>
+    <td class="b0">ةة
+      <span class="tooltip">76</span>
+    </td>
+  </tr>
+</table>
+    <p>corrected logarithmic scale (minimum cutoff point: 1000)</p>
+    <table>
+  <tr>
+    <td class="b0">0-1000</td>
+    <td class="b0"> </td>
+    <td class="b1"><span class="tooltip">6-50</span></td>
+    <td class="b2"><span class="tooltip">50-372</span></td>
+    <td class="b3"><span class="tooltip">372-2,692</span></td>
+    <td class="b4"><span class="tooltip">2,692-19,398</span></td>
+    <td class="b5"><span class="tooltip">19,398-139,750</span></td>
+    <td class="b6"><span class="tooltip">139,750-1,006,737</span></td>
+    <td class="b7"><span class="tooltip">1,006,737-7,252,308</span></td>
+    <td class="b8"><span class="tooltip">7,252,308-52,243,929</span></td>
+    <td class="b9"><span class="tooltip">52,243,929-138,452,531</span></td>
+    <td class="b9">138,452,531</td>
+</table>
+
+    </body>
+    </html>
