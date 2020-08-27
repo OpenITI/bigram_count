@@ -253,12 +253,12 @@ def save_as_html_table(matrix, max_val, min_val, cut_off_min, buckets, palette,
 ###############################################    
 
 start_folder = r"D:\London\OpenITI\25Y_repos"
-json_fp = "bigram_count.json"
+json_fp = r"output\bigram_count.json"
 alph = "اإأآبتثجحخدذرزسشصضطظعغفقكلمنهويىؤءئة"
 buckets = 10
 palette = "YlOrBr"
 cut_off_min = 1000
-outfp = "freq_table.html"
+html_outfp = r"output\freq_heatmap.html"
 html_title = "Bi-gram frequencies in the OpenITI corpus"
 
 ###############################################
@@ -272,7 +272,7 @@ matrix = make_freq_matrix(bigrams)
 max_val, min_val = get_boundaries(bigrams)
 print(max_val, min_val)
 save_as_html_table(matrix, max_val, min_val, cut_off_min, buckets, palette,
-                   html_title, outfp)
+                   html_title, html_outfp)
             
 
     
